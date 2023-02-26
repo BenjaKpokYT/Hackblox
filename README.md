@@ -3,4 +3,4 @@
 ##### Version: Beta 2
 
 Changelog:
-Bugfixes
+- Bugfixes
