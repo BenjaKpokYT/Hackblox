@@ -1,6 +1,7 @@
 # Hackblox, a good and universal script.
 
-##### Version: Beta 2
+##### Version: Beta 3
 
 Changelog:
-- Bugfixes
+- More Bugfixes
+- Added Config Tab
