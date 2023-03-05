@@ -40,74 +40,79 @@ local UIPadding_2 = Instance.new("UIPadding")
 local Home = Instance.new("TextButton")
 local UIPadding_3 = Instance.new("UIPadding")
 local ImageLabel = Instance.new("ImageLabel")
+local UICorner_4 = Instance.new("UICorner")
 local UIListLayout = Instance.new("UIListLayout")
-local Game = Instance.new("TextButton")
+local GameXD = Instance.new("TextButton")
 local UIPadding_4 = Instance.new("UIPadding")
 local ImageLabel_2 = Instance.new("ImageLabel")
+local UICorner_5 = Instance.new("UICorner")
 local Utilities = Instance.new("TextButton")
 local UIPadding_5 = Instance.new("UIPadding")
 local ImageLabel_3 = Instance.new("ImageLabel")
+local UICorner_6 = Instance.new("UICorner")
 local OtherExploits = Instance.new("TextButton")
 local UIPadding_6 = Instance.new("UIPadding")
 local ImageLabel_4 = Instance.new("ImageLabel")
+local UICorner_7 = Instance.new("UICorner")
 local Config = Instance.new("TextButton")
 local UIPadding_7 = Instance.new("UIPadding")
 local ImageLabel_5 = Instance.new("ImageLabel")
+local UICorner_8 = Instance.new("UICorner")
 local ContentContainer = Instance.new("Frame")
 local LibraryTab = Instance.new("ScrollingFrame")
 local UIPadding_8 = Instance.new("UIPadding")
 local UIListLayout_2 = Instance.new("UIListLayout")
 local Slider = Instance.new("Frame")
-local UICorner_4 = Instance.new("UICorner")
+local UICorner_9 = Instance.new("UICorner")
 local Title_2 = Instance.new("TextLabel")
 local UIPadding_9 = Instance.new("UIPadding")
 local Value = Instance.new("TextLabel")
 local SliderBack = Instance.new("Frame")
-local UICorner_5 = Instance.new("UICorner")
+local UICorner_10 = Instance.new("UICorner")
 local Draggable = Instance.new("TextButton")
-local UICorner_6 = Instance.new("UICorner")
+local UICorner_11 = Instance.new("UICorner")
 local Toggle = Instance.new("Frame")
-local UICorner_7 = Instance.new("UICorner")
+local UICorner_12 = Instance.new("UICorner")
 local Title_3 = Instance.new("TextLabel")
 local UIPadding_10 = Instance.new("UIPadding")
 local CheckmarkHolder = Instance.new("Frame")
-local UICorner_8 = Instance.new("UICorner")
+local UICorner_13 = Instance.new("UICorner")
 local Checkmark = Instance.new("ImageButton")
 local Error = Instance.new("Frame")
-local UICorner_9 = Instance.new("UICorner")
+local UICorner_14 = Instance.new("UICorner")
 local Title_4 = Instance.new("TextLabel")
 local UIPadding_11 = Instance.new("UIPadding")
 local ImageLabel_6 = Instance.new("ImageLabel")
 local Warning = Instance.new("Frame")
-local UICorner_10 = Instance.new("UICorner")
+local UICorner_15 = Instance.new("UICorner")
 local Title_5 = Instance.new("TextLabel")
 local UIPadding_12 = Instance.new("UIPadding")
 local ImageLabel_7 = Instance.new("ImageLabel")
 local Info = Instance.new("Frame")
-local UICorner_11 = Instance.new("UICorner")
+local UICorner_16 = Instance.new("UICorner")
 local Title_6 = Instance.new("TextLabel")
 local UIPadding_13 = Instance.new("UIPadding")
 local ImageLabel_8 = Instance.new("ImageLabel")
 local Label = Instance.new("Frame")
-local UICorner_12 = Instance.new("UICorner")
+local UICorner_17 = Instance.new("UICorner")
 local Title_7 = Instance.new("TextLabel")
 local UIPadding_14 = Instance.new("UIPadding")
 local ImageLabel_9 = Instance.new("ImageLabel")
 local Dropdown = Instance.new("Frame")
-local UICorner_13 = Instance.new("UICorner")
+local UICorner_18 = Instance.new("UICorner")
 local UIPadding_15 = Instance.new("UIPadding")
 local ImageLabel_10 = Instance.new("ImageLabel")
 local OptionHolder = Instance.new("Frame")
 local UIListLayout_3 = Instance.new("UIListLayout")
 local Option1 = Instance.new("TextButton")
-local UICorner_14 = Instance.new("UICorner")
+local UICorner_19 = Instance.new("UICorner")
 local Option2 = Instance.new("TextButton")
-local UICorner_15 = Instance.new("UICorner")
+local UICorner_20 = Instance.new("UICorner")
 local Option3 = Instance.new("TextButton")
-local UICorner_16 = Instance.new("UICorner")
+local UICorner_21 = Instance.new("UICorner")
 local Title_8 = Instance.new("TextButton")
 local Button = Instance.new("Frame")
-local UICorner_17 = Instance.new("UICorner")
+local UICorner_22 = Instance.new("UICorner")
 local UIPadding_16 = Instance.new("UIPadding")
 local ImageLabel_11 = Instance.new("ImageLabel")
 local Title_9 = Instance.new("TextButton")
@@ -115,38 +120,38 @@ local UtilitiesTab = Instance.new("ScrollingFrame")
 local UIPadding_17 = Instance.new("UIPadding")
 local UIListLayout_4 = Instance.new("UIListLayout")
 local Fly = Instance.new("Frame")
-local UICorner_18 = Instance.new("UICorner")
+local UICorner_23 = Instance.new("UICorner")
 local UIPadding_18 = Instance.new("UIPadding")
 local ImageLabel_12 = Instance.new("ImageLabel")
 local Title_10 = Instance.new("TextButton")
 local Noclip = Instance.new("Frame")
-local UICorner_19 = Instance.new("UICorner")
+local UICorner_24 = Instance.new("UICorner")
 local UIPadding_19 = Instance.new("UIPadding")
 local ImageLabel_13 = Instance.new("ImageLabel")
 local Title_11 = Instance.new("TextButton")
 local InfJump = Instance.new("Frame")
-local UICorner_20 = Instance.new("UICorner")
+local UICorner_25 = Instance.new("UICorner")
 local UIPadding_20 = Instance.new("UIPadding")
 local ImageLabel_14 = Instance.new("ImageLabel")
 local Title_12 = Instance.new("TextButton")
 local JumpSliderTMP = Instance.new("Frame")
-local UICorner_21 = Instance.new("UICorner")
+local UICorner_26 = Instance.new("UICorner")
 local Title_13 = Instance.new("TextLabel")
 local UIPadding_21 = Instance.new("UIPadding")
 local Value_2 = Instance.new("TextLabel")
 local SliderBack_2 = Instance.new("Frame")
-local UICorner_22 = Instance.new("UICorner")
+local UICorner_27 = Instance.new("UICorner")
 local Slider_2 = Instance.new("TextButton")
-local UICorner_23 = Instance.new("UICorner")
+local UICorner_28 = Instance.new("UICorner")
 local SpeedSliderTMP = Instance.new("Frame")
-local UICorner_24 = Instance.new("UICorner")
+local UICorner_29 = Instance.new("UICorner")
 local Title_14 = Instance.new("TextLabel")
 local UIPadding_22 = Instance.new("UIPadding")
 local Value_3 = Instance.new("TextLabel")
 local SliderBack_3 = Instance.new("Frame")
-local UICorner_25 = Instance.new("UICorner")
+local UICorner_30 = Instance.new("UICorner")
 local Slider_3 = Instance.new("TextButton")
-local UICorner_26 = Instance.new("UICorner")
+local UICorner_31 = Instance.new("UICorner")
 local HomeTab = Instance.new("ScrollingFrame")
 local UIPadding_23 = Instance.new("UIPadding")
 local PlayerImage = Instance.new("ImageLabel")
@@ -155,31 +160,31 @@ local ConfigTab = Instance.new("ScrollingFrame")
 local UIPadding_24 = Instance.new("UIPadding")
 local UIListLayout_5 = Instance.new("UIListLayout")
 local Dropdown_2 = Instance.new("Frame")
-local UICorner_27 = Instance.new("UICorner")
+local UICorner_32 = Instance.new("UICorner")
 local UIPadding_25 = Instance.new("UIPadding")
 local ImageLabel_15 = Instance.new("ImageLabel")
 local OptionHolder_2 = Instance.new("Frame")
 local UIListLayout_6 = Instance.new("UIListLayout")
 local ReloadGUI = Instance.new("TextButton")
-local UICorner_28 = Instance.new("UICorner")
+local UICorner_33 = Instance.new("UICorner")
 local CloseGUI = Instance.new("TextButton")
-local UICorner_29 = Instance.new("UICorner")
+local UICorner_34 = Instance.new("UICorner")
 local Title_15 = Instance.new("TextButton")
 local ExploitsTab = Instance.new("ScrollingFrame")
 local UIPadding_26 = Instance.new("UIPadding")
 local UIListLayout_7 = Instance.new("UIListLayout")
 local IY = Instance.new("Frame")
-local UICorner_30 = Instance.new("UICorner")
+local UICorner_35 = Instance.new("UICorner")
 local UIPadding_27 = Instance.new("UIPadding")
 local ImageLabel_16 = Instance.new("ImageLabel")
 local Title_16 = Instance.new("TextButton")
 local CMDX = Instance.new("Frame")
-local UICorner_31 = Instance.new("UICorner")
+local UICorner_36 = Instance.new("UICorner")
 local UIPadding_28 = Instance.new("UIPadding")
 local ImageLabel_17 = Instance.new("ImageLabel")
 local Title_17 = Instance.new("TextButton")
 local Dex = Instance.new("Frame")
-local UICorner_32 = Instance.new("UICorner")
+local UICorner_37 = Instance.new("UICorner")
 local UIPadding_29 = Instance.new("UIPadding")
 local ImageLabel_18 = Instance.new("ImageLabel")
 local Title_18 = Instance.new("TextButton")
@@ -187,7 +192,7 @@ local GameTab = Instance.new("ScrollingFrame")
 local UIPadding_30 = Instance.new("UIPadding")
 local UIListLayout_8 = Instance.new("UIListLayout")
 local Error_2 = Instance.new("Frame")
-local UICorner_33 = Instance.new("UICorner")
+local UICorner_38 = Instance.new("UICorner")
 local Title_19 = Instance.new("TextLabel")
 local UIPadding_31 = Instance.new("UIPadding")
 local ImageLabel_19 = Instance.new("ImageLabel")
@@ -197,7 +202,7 @@ local DropShadow = Instance.new("ImageLabel")
 --Properties:
 
 MainUI.Name = "MainUI"
-MainUI.Parent = game.CoreGui
+MainUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 MainUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 MainUI.ResetOnSpawn = false
 
@@ -298,8 +303,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 8)
 Home.Name = "Home"
 Home.Parent = ButtonHolder
 Home.Active = false
-Home.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Home.BackgroundTransparency = 0.900
+Home.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
 Home.Selectable = false
 Home.Size = UDim2.new(1, 0, 0, 24)
 Home.Font = Enum.Font.Ubuntu
@@ -321,28 +325,29 @@ ImageLabel.Position = UDim2.new(0, -24, 0.5, 0)
 ImageLabel.Size = UDim2.new(0, 20, 0, 20)
 ImageLabel.Image = "rbxassetid://12576663818"
 
+UICorner_4.Parent = Home
+
 UIListLayout.Parent = ButtonHolder
 UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
 UIListLayout.Padding = UDim.new(0, 8)
 
-Game.Name = "Game"
-Game.Parent = ButtonHolder
-Game.Active = false
-Game.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Game.BackgroundTransparency = 0.900
-Game.Selectable = false
-Game.Size = UDim2.new(1, 0, 0, 24)
-Game.Font = Enum.Font.Ubuntu
-Game.Text = "Game"
-Game.TextColor3 = Color3.fromRGB(255, 255, 255)
-Game.TextSize = 14.000
-Game.TextXAlignment = Enum.TextXAlignment.Left
+GameXD.Name = "GameXD"
+GameXD.Parent = ButtonHolder
+GameXD.Active = false
+GameXD.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
+GameXD.Selectable = false
+GameXD.Size = UDim2.new(1, 0, 0, 24)
+GameXD.Font = Enum.Font.Ubuntu
+GameXD.Text = "Game"
+GameXD.TextColor3 = Color3.fromRGB(255, 255, 255)
+GameXD.TextSize = 14.000
+GameXD.TextXAlignment = Enum.TextXAlignment.Left
 
-UIPadding_4.Parent = Game
+UIPadding_4.Parent = GameXD
 UIPadding_4.PaddingLeft = UDim.new(0, 30)
 UIPadding_4.PaddingTop = UDim.new(0, 1)
 
-ImageLabel_2.Parent = Game
+ImageLabel_2.Parent = GameXD
 ImageLabel_2.AnchorPoint = Vector2.new(0, 0.5)
 ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel_2.BackgroundTransparency = 1.000
@@ -351,11 +356,12 @@ ImageLabel_2.Position = UDim2.new(0, -24, 0.5, 0)
 ImageLabel_2.Size = UDim2.new(0, 20, 0, 20)
 ImageLabel_2.Image = "http://www.roblox.com/asset/?id=6034848748"
 
+UICorner_5.Parent = GameXD
+
 Utilities.Name = "Utilities"
 Utilities.Parent = ButtonHolder
 Utilities.Active = false
-Utilities.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Utilities.BackgroundTransparency = 0.900
+Utilities.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
 Utilities.Selectable = false
 Utilities.Size = UDim2.new(1, 0, 0, 24)
 Utilities.Font = Enum.Font.Ubuntu
@@ -377,11 +383,12 @@ ImageLabel_3.Position = UDim2.new(0, -24, 0.5, 0)
 ImageLabel_3.Size = UDim2.new(0, 20, 0, 20)
 ImageLabel_3.Image = "rbxassetid://7072723685"
 
+UICorner_6.Parent = Utilities
+
 OtherExploits.Name = "OtherExploits"
 OtherExploits.Parent = ButtonHolder
 OtherExploits.Active = false
-OtherExploits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-OtherExploits.BackgroundTransparency = 0.900
+OtherExploits.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
 OtherExploits.Selectable = false
 OtherExploits.Size = UDim2.new(1, 0, 0, 24)
 OtherExploits.Font = Enum.Font.Ubuntu
@@ -403,11 +410,12 @@ ImageLabel_4.Position = UDim2.new(0, -24, 0.5, 0)
 ImageLabel_4.Size = UDim2.new(0, 20, 0, 20)
 ImageLabel_4.Image = "rbxassetid://7072707514"
 
+UICorner_7.Parent = OtherExploits
+
 Config.Name = "Config"
 Config.Parent = ButtonHolder
 Config.Active = false
-Config.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Config.BackgroundTransparency = 0.900
+Config.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
 Config.Selectable = false
 Config.Size = UDim2.new(1, 0, 0, 24)
 Config.Font = Enum.Font.Ubuntu
@@ -428,6 +436,8 @@ ImageLabel_5.BorderSizePixel = 0
 ImageLabel_5.Position = UDim2.new(0, -24, 0.5, 0)
 ImageLabel_5.Size = UDim2.new(0, 20, 0, 20)
 ImageLabel_5.Image = "http://www.roblox.com/asset/?id=6031280882"
+
+UICorner_8.Parent = Config
 
 ContentContainer.Name = "ContentContainer"
 ContentContainer.Parent = MainFrame
@@ -463,8 +473,8 @@ Slider.Parent = LibraryTab
 Slider.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
 Slider.Size = UDim2.new(1, 0, 0, 38)
 
-UICorner_4.CornerRadius = UDim.new(0, 4)
-UICorner_4.Parent = Slider
+UICorner_9.CornerRadius = UDim.new(0, 4)
+UICorner_9.Parent = Slider
 
 Title_2.Name = "Title"
 Title_2.Parent = Slider
@@ -503,7 +513,7 @@ SliderBack.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
 SliderBack.Position = UDim2.new(0, 0, 1, 0)
 SliderBack.Size = UDim2.new(1, 0, 0, 4)
 
-UICorner_5.Parent = SliderBack
+UICorner_10.Parent = SliderBack
 
 Draggable.Name = "Draggable"
 Draggable.Parent = SliderBack
@@ -515,15 +525,15 @@ Draggable.Selectable = false
 Draggable.Size = UDim2.new(0, 5, 0, 10)
 Draggable.Text = ""
 
-UICorner_6.Parent = Draggable
+UICorner_11.Parent = Draggable
 
 Toggle.Name = "Toggle"
 Toggle.Parent = LibraryTab
 Toggle.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
 Toggle.Size = UDim2.new(1, 0, 0, 32)
 
-UICorner_7.CornerRadius = UDim.new(0, 4)
-UICorner_7.Parent = Toggle
+UICorner_12.CornerRadius = UDim.new(0, 4)
+UICorner_12.Parent = Toggle
 
 Title_3.Name = "Title"
 Title_3.Parent = Toggle
@@ -550,8 +560,8 @@ CheckmarkHolder.BorderColor3 = Color3.fromRGB(48, 48, 48)
 CheckmarkHolder.Position = UDim2.new(1, 0, 0, 0)
 CheckmarkHolder.Size = UDim2.new(0, 20, 0, 20)
 
-UICorner_8.CornerRadius = UDim.new(0, 3)
-UICorner_8.Parent = CheckmarkHolder
+UICorner_13.CornerRadius = UDim.new(0, 3)
+UICorner_13.Parent = CheckmarkHolder
 
 Checkmark.Name = "Checkmark"
 Checkmark.Parent = CheckmarkHolder
@@ -570,8 +580,8 @@ Error.Parent = LibraryTab
 Error.BackgroundColor3 = Color3.fromRGB(120, 0, 0)
 Error.Size = UDim2.new(1, 0, 0, 28)
 
-UICorner_9.CornerRadius = UDim.new(0, 4)
-UICorner_9.Parent = Error
+UICorner_14.CornerRadius = UDim.new(0, 4)
+UICorner_14.Parent = Error
 
 Title_4.Name = "Title"
 Title_4.Parent = Error
@@ -602,8 +612,8 @@ Warning.Parent = LibraryTab
 Warning.BackgroundColor3 = Color3.fromRGB(43, 36, 2)
 Warning.Size = UDim2.new(1, 0, 0, 28)
 
-UICorner_10.CornerRadius = UDim.new(0, 4)
-UICorner_10.Parent = Warning
+UICorner_15.CornerRadius = UDim.new(0, 4)
+UICorner_15.Parent = Warning
 
 Title_5.Name = "Title"
 Title_5.Parent = Warning
@@ -634,8 +644,8 @@ Info.Parent = LibraryTab
 Info.BackgroundColor3 = Color3.fromRGB(2, 32, 45)
 Info.Size = UDim2.new(1, 0, 0, 28)
 
-UICorner_11.CornerRadius = UDim.new(0, 4)
-UICorner_11.Parent = Info
+UICorner_16.CornerRadius = UDim.new(0, 4)
+UICorner_16.Parent = Info
 
 Title_6.Name = "Title"
 Title_6.Parent = Info
@@ -666,8 +676,8 @@ Label.Parent = LibraryTab
 Label.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
 Label.Size = UDim2.new(1, 0, 0, 28)
 
-UICorner_12.CornerRadius = UDim.new(0, 4)
-UICorner_12.Parent = Label
+UICorner_17.CornerRadius = UDim.new(0, 4)
+UICorner_17.Parent = Label
 
 Title_7.Name = "Title"
 Title_7.Parent = Label
@@ -697,8 +707,8 @@ Dropdown.Parent = LibraryTab
 Dropdown.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
 Dropdown.Size = UDim2.new(1, 0, 0, 30)
 
-UICorner_13.CornerRadius = UDim.new(0, 4)
-UICorner_13.Parent = Dropdown
+UICorner_18.CornerRadius = UDim.new(0, 4)
+UICorner_18.Parent = Dropdown
 
 UIPadding_15.Parent = Dropdown
 UIPadding_15.PaddingBottom = UDim.new(0, 6)
@@ -737,7 +747,7 @@ Option1.Text = "Option"
 Option1.TextColor3 = Color3.fromRGB(255, 255, 255)
 Option1.TextSize = 14.000
 
-UICorner_14.Parent = Option1
+UICorner_19.Parent = Option1
 
 Option2.Name = "Option2"
 Option2.Parent = OptionHolder
@@ -750,7 +760,7 @@ Option2.Text = "Option"
 Option2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Option2.TextSize = 14.000
 
-UICorner_15.Parent = Option2
+UICorner_20.Parent = Option2
 
 Option3.Name = "Option3"
 Option3.Parent = OptionHolder
@@ -763,7 +773,7 @@ Option3.Text = "Option"
 Option3.TextColor3 = Color3.fromRGB(255, 255, 255)
 Option3.TextSize = 14.000
 
-UICorner_16.Parent = Option3
+UICorner_21.Parent = Option3
 
 Title_8.Name = "Title"
 Title_8.Parent = Dropdown
@@ -783,8 +793,8 @@ Button.Parent = LibraryTab
 Button.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
 Button.Size = UDim2.new(1, 0, 0, 32)
 
-UICorner_17.CornerRadius = UDim.new(0, 4)
-UICorner_17.Parent = Button
+UICorner_22.CornerRadius = UDim.new(0, 4)
+UICorner_22.Parent = Button
 
 UIPadding_16.Parent = Button
 UIPadding_16.PaddingBottom = UDim.new(0, 6)
@@ -837,8 +847,8 @@ Fly.Parent = UtilitiesTab
 Fly.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
 Fly.Size = UDim2.new(1, 0, 0, 32)
 
-UICorner_18.CornerRadius = UDim.new(0, 4)
-UICorner_18.Parent = Fly
+UICorner_23.CornerRadius = UDim.new(0, 4)
+UICorner_23.Parent = Fly
 
 UIPadding_18.Parent = Fly
 UIPadding_18.PaddingBottom = UDim.new(0, 6)
@@ -872,8 +882,8 @@ Noclip.Parent = UtilitiesTab
 Noclip.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
 Noclip.Size = UDim2.new(1, 0, 0, 32)
 
-UICorner_19.CornerRadius = UDim.new(0, 4)
-UICorner_19.Parent = Noclip
+UICorner_24.CornerRadius = UDim.new(0, 4)
+UICorner_24.Parent = Noclip
 
 UIPadding_19.Parent = Noclip
 UIPadding_19.PaddingBottom = UDim.new(0, 6)
@@ -907,8 +917,8 @@ InfJump.Parent = UtilitiesTab
 InfJump.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
 InfJump.Size = UDim2.new(1, 0, 0, 32)
 
-UICorner_20.CornerRadius = UDim.new(0, 4)
-UICorner_20.Parent = InfJump
+UICorner_25.CornerRadius = UDim.new(0, 4)
+UICorner_25.Parent = InfJump
 
 UIPadding_20.Parent = InfJump
 UIPadding_20.PaddingBottom = UDim.new(0, 6)
@@ -942,8 +952,8 @@ JumpSliderTMP.Parent = UtilitiesTab
 JumpSliderTMP.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
 JumpSliderTMP.Size = UDim2.new(1, 0, 0, 38)
 
-UICorner_21.CornerRadius = UDim.new(0, 4)
-UICorner_21.Parent = JumpSliderTMP
+UICorner_26.CornerRadius = UDim.new(0, 4)
+UICorner_26.Parent = JumpSliderTMP
 
 Title_13.Name = "Title"
 Title_13.Parent = JumpSliderTMP
@@ -982,7 +992,7 @@ SliderBack_2.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
 SliderBack_2.Position = UDim2.new(0, 0, 1, 0)
 SliderBack_2.Size = UDim2.new(1, 0, 0, 4)
 
-UICorner_22.Parent = SliderBack_2
+UICorner_27.Parent = SliderBack_2
 
 Slider_2.Name = "Slider"
 Slider_2.Parent = SliderBack_2
@@ -994,15 +1004,15 @@ Slider_2.Selectable = false
 Slider_2.Size = UDim2.new(0, 5, 0, 10)
 Slider_2.Text = ""
 
-UICorner_23.Parent = Slider_2
+UICorner_28.Parent = Slider_2
 
 SpeedSliderTMP.Name = "SpeedSliderTMP"
 SpeedSliderTMP.Parent = UtilitiesTab
 SpeedSliderTMP.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
 SpeedSliderTMP.Size = UDim2.new(1, 0, 0, 38)
 
-UICorner_24.CornerRadius = UDim.new(0, 4)
-UICorner_24.Parent = SpeedSliderTMP
+UICorner_29.CornerRadius = UDim.new(0, 4)
+UICorner_29.Parent = SpeedSliderTMP
 
 Title_14.Name = "Title"
 Title_14.Parent = SpeedSliderTMP
@@ -1041,7 +1051,7 @@ SliderBack_3.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
 SliderBack_3.Position = UDim2.new(0, 0, 1, 0)
 SliderBack_3.Size = UDim2.new(1, 0, 0, 4)
 
-UICorner_25.Parent = SliderBack_3
+UICorner_30.Parent = SliderBack_3
 
 Slider_3.Name = "Slider"
 Slider_3.Parent = SliderBack_3
@@ -1053,7 +1063,7 @@ Slider_3.Selectable = false
 Slider_3.Size = UDim2.new(0, 5, 0, 10)
 Slider_3.Text = ""
 
-UICorner_26.Parent = Slider_3
+UICorner_31.Parent = Slider_3
 
 HomeTab.Name = "HomeTab"
 HomeTab.Parent = ContentContainer
@@ -1118,8 +1128,8 @@ Dropdown_2.Parent = ConfigTab
 Dropdown_2.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
 Dropdown_2.Size = UDim2.new(1, 0, 0, 30)
 
-UICorner_27.CornerRadius = UDim.new(0, 4)
-UICorner_27.Parent = Dropdown_2
+UICorner_32.CornerRadius = UDim.new(0, 4)
+UICorner_32.Parent = Dropdown_2
 
 UIPadding_25.Parent = Dropdown_2
 UIPadding_25.PaddingBottom = UDim.new(0, 6)
@@ -1154,11 +1164,11 @@ ReloadGUI.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
 ReloadGUI.Selectable = false
 ReloadGUI.Size = UDim2.new(1, 0, 0, 24)
 ReloadGUI.Font = Enum.Font.Ubuntu
-ReloadGUI.Text = "Option"
+ReloadGUI.Text = "Reload GUI"
 ReloadGUI.TextColor3 = Color3.fromRGB(255, 255, 255)
 ReloadGUI.TextSize = 14.000
 
-UICorner_28.Parent = ReloadGUI
+UICorner_33.Parent = ReloadGUI
 
 CloseGUI.Name = "CloseGUI"
 CloseGUI.Parent = OptionHolder_2
@@ -1167,11 +1177,11 @@ CloseGUI.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
 CloseGUI.Selectable = false
 CloseGUI.Size = UDim2.new(1, 0, 0, 24)
 CloseGUI.Font = Enum.Font.Ubuntu
-CloseGUI.Text = "Option"
+CloseGUI.Text = "Close GUI"
 CloseGUI.TextColor3 = Color3.fromRGB(255, 255, 255)
 CloseGUI.TextSize = 14.000
 
-UICorner_29.Parent = CloseGUI
+UICorner_34.Parent = CloseGUI
 
 Title_15.Name = "Title"
 Title_15.Parent = Dropdown_2
@@ -1211,8 +1221,8 @@ IY.Parent = ExploitsTab
 IY.BackgroundColor3 = Color3.fromRGB(108, 0, 0)
 IY.Size = UDim2.new(1, 0, 0, 32)
 
-UICorner_30.CornerRadius = UDim.new(0, 4)
-UICorner_30.Parent = IY
+UICorner_35.CornerRadius = UDim.new(0, 4)
+UICorner_35.Parent = IY
 
 UIPadding_27.Parent = IY
 UIPadding_27.PaddingBottom = UDim.new(0, 6)
@@ -1247,8 +1257,8 @@ CMDX.Parent = ExploitsTab
 CMDX.BackgroundColor3 = Color3.fromRGB(2, 32, 45)
 CMDX.Size = UDim2.new(1, 0, 0, 32)
 
-UICorner_31.CornerRadius = UDim.new(0, 4)
-UICorner_31.Parent = CMDX
+UICorner_36.CornerRadius = UDim.new(0, 4)
+UICorner_36.Parent = CMDX
 
 UIPadding_28.Parent = CMDX
 UIPadding_28.PaddingBottom = UDim.new(0, 6)
@@ -1283,8 +1293,8 @@ Dex.Parent = ExploitsTab
 Dex.BackgroundColor3 = Color3.fromRGB(43, 36, 2)
 Dex.Size = UDim2.new(1, 0, 0, 32)
 
-UICorner_32.CornerRadius = UDim.new(0, 4)
-UICorner_32.Parent = Dex
+UICorner_37.CornerRadius = UDim.new(0, 4)
+UICorner_37.Parent = Dex
 
 UIPadding_29.Parent = Dex
 UIPadding_29.PaddingBottom = UDim.new(0, 6)
@@ -1339,8 +1349,8 @@ Error_2.Parent = GameTab
 Error_2.BackgroundColor3 = Color3.fromRGB(120, 0, 0)
 Error_2.Size = UDim2.new(1, 0, 0, 28)
 
-UICorner_33.CornerRadius = UDim.new(0, 4)
-UICorner_33.Parent = Error_2
+UICorner_38.CornerRadius = UDim.new(0, 4)
+UICorner_38.Parent = Error_2
 
 Title_19.Name = "Title"
 Title_19.Parent = Error_2
@@ -1389,30 +1399,30 @@ DropShadow.SliceCenter = Rect.new(49, 49, 450, 450)
 
 -- Scripts:
 
-local function PQKOS_fake_script() -- TopBar.Draggable 
+local function HSYNR_fake_script() -- TopBar.Draggable 
 	local script = Instance.new('LocalScript', TopBar)
 
 	local UserInputService = game:GetService("UserInputService")
-	
+
 	local gui = script.Parent
 	local mainframe = script.Parent.Parent
-	
+
 	local dragging
 	local dragInput
 	local dragStart
 	local startPos
-	
+
 	local function update(input)
 		local delta = input.Position - dragStart
 		mainframe.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
 	end
-	
+
 	gui.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
 			dragging = true
 			dragStart = input.Position
 			startPos = mainframe.Position
-	
+
 			input.Changed:Connect(function()
 				if input.UserInputState == Enum.UserInputState.End then
 					dragging = false
@@ -1420,21 +1430,21 @@ local function PQKOS_fake_script() -- TopBar.Draggable
 			end)
 		end
 	end)
-	
+
 	gui.InputChanged:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
 			dragInput = input
 		end
 	end)
-	
+
 	UserInputService.InputChanged:Connect(function(input)
 		if input == dragInput and dragging then
 			update(input)
 		end
 	end)
 end
-coroutine.wrap(PQKOS_fake_script)()
-local function NYSM_fake_script() -- Minimize.Minimize 
+coroutine.wrap(HSYNR_fake_script)()
+local function CWLQ_fake_script() -- Minimize.Minimize 
 	local script = Instance.new('LocalScript', Minimize)
 
 	local button = script.Parent
@@ -1446,7 +1456,7 @@ local function NYSM_fake_script() -- Minimize.Minimize
 	local debounce = false
 	local imgid1 = "rbxassetid://7072719185"
 	local imgid2 = "rbxassetid://7072718726"
-	
+
 	local function HideAll()
 		ui.ContentContainer.Visible = false
 		ui.DropShadowHolder.Size = UDim2.new(1,0,1,-270)
@@ -1456,7 +1466,7 @@ local function NYSM_fake_script() -- Minimize.Minimize
 		script.Parent.Image = imgid2
 		ui.BackgroundTransparency = 1
 	end
-	
+
 	local function ShowAll()
 		ui.ContentContainer.Visible = true
 		ui.DropShadowHolder.Size = UDim2.new(1,0,1,0)
@@ -1466,7 +1476,7 @@ local function NYSM_fake_script() -- Minimize.Minimize
 		script.Parent.Image = imgid1
 		ui.BackgroundTransparency = 0
 	end
-	
+
 	button.MouseButton1Click:Connect(function()
 		if debounce == false then
 			HideAll()
@@ -1477,8 +1487,8 @@ local function NYSM_fake_script() -- Minimize.Minimize
 		end
 	end)
 end
-coroutine.wrap(NYSM_fake_script)()
-local function FGUJQHQ_fake_script() -- Home.Toggle 
+coroutine.wrap(CWLQ_fake_script)()
+local function TENTMQU_fake_script() -- Home.Toggle 
 	local script = Instance.new('LocalScript', Home)
 
 	local button = script.Parent
@@ -1488,7 +1498,7 @@ local function FGUJQHQ_fake_script() -- Home.Toggle
 	local exploitsTab = tabs.ExploitsTab
 	local gameTab = tabs.GameTab
 	local configTab = tabs.ConfigTab
-	
+
 	local function HideAll()
 		homeTab.Visible = false
 		toolsTab.Visible = false
@@ -1496,15 +1506,15 @@ local function FGUJQHQ_fake_script() -- Home.Toggle
 		gameTab.Visible = false
 		configTab.Visible = false
 	end
-	
+
 	button.MouseButton1Click:Connect(function()
 		HideAll()
 		homeTab.Visible = true
 	end)
 end
-coroutine.wrap(FGUJQHQ_fake_script)()
-local function UDRPQIV_fake_script() -- Game.Toggle 
-	local script = Instance.new('LocalScript', Game)
+coroutine.wrap(TENTMQU_fake_script)()
+local function JACKEBQ_fake_script() -- GameXD.Toggle 
+	local script = Instance.new('LocalScript', GameXD)
 
 	local button = script.Parent
 	local tabs = script.Parent.Parent.Parent.Parent.ContentContainer
@@ -1513,7 +1523,7 @@ local function UDRPQIV_fake_script() -- Game.Toggle
 	local exploitsTab = tabs.ExploitsTab
 	local gameTab = tabs.GameTab
 	local configTab = tabs.ConfigTab
-	
+
 	local function HideAll()
 		homeTab.Visible = false
 		toolsTab.Visible = false
@@ -1521,14 +1531,14 @@ local function UDRPQIV_fake_script() -- Game.Toggle
 		gameTab.Visible = false
 		configTab.Visible = false
 	end
-	
+
 	button.MouseButton1Click:Connect(function()
 		HideAll()
 		gameTab.Visible = true
 	end)
 end
-coroutine.wrap(UDRPQIV_fake_script)()
-local function QRFS_fake_script() -- Utilities.Toggle 
+coroutine.wrap(JACKEBQ_fake_script)()
+local function IJIEL_fake_script() -- Utilities.Toggle 
 	local script = Instance.new('LocalScript', Utilities)
 
 	local button = script.Parent
@@ -1538,7 +1548,7 @@ local function QRFS_fake_script() -- Utilities.Toggle
 	local exploitsTab = tabs.ExploitsTab
 	local gameTab = tabs.GameTab
 	local configTab = tabs.ConfigTab
-	
+
 	local function HideAll()
 		homeTab.Visible = false
 		toolsTab.Visible = false
@@ -1546,14 +1556,14 @@ local function QRFS_fake_script() -- Utilities.Toggle
 		gameTab.Visible = false
 		configTab.Visible = false
 	end
-	
+
 	button.MouseButton1Click:Connect(function()
 		HideAll()
 		toolsTab.Visible = true
 	end)
 end
-coroutine.wrap(QRFS_fake_script)()
-local function EJAVZHL_fake_script() -- OtherExploits.Toggle 
+coroutine.wrap(IJIEL_fake_script)()
+local function VGDOP_fake_script() -- OtherExploits.Toggle 
 	local script = Instance.new('LocalScript', OtherExploits)
 
 	local button = script.Parent
@@ -1563,7 +1573,7 @@ local function EJAVZHL_fake_script() -- OtherExploits.Toggle
 	local exploitsTab = tabs.ExploitsTab
 	local gameTab = tabs.GameTab
 	local configTab = tabs.ConfigTab
-	
+
 	local function HideAll()
 		homeTab.Visible = false
 		toolsTab.Visible = false
@@ -1571,14 +1581,14 @@ local function EJAVZHL_fake_script() -- OtherExploits.Toggle
 		gameTab.Visible = false
 		configTab.Visible = false
 	end
-	
+
 	button.MouseButton1Click:Connect(function()
 		HideAll()
 		exploitsTab.Visible = true
 	end)
 end
-coroutine.wrap(EJAVZHL_fake_script)()
-local function FMWTVDY_fake_script() -- Config.Toggle 
+coroutine.wrap(VGDOP_fake_script)()
+local function RKOD_fake_script() -- Config.Toggle 
 	local script = Instance.new('LocalScript', Config)
 
 	local button = script.Parent
@@ -1588,7 +1598,7 @@ local function FMWTVDY_fake_script() -- Config.Toggle
 	local exploitsTab = tabs.ExploitsTab
 	local gameTab = tabs.GameTab
 	local configTab = tabs.ConfigTab
-	
+
 	local function HideAll()
 		homeTab.Visible = false
 		toolsTab.Visible = false
@@ -1596,21 +1606,21 @@ local function FMWTVDY_fake_script() -- Config.Toggle
 		gameTab.Visible = false
 		configTab.Visible = false
 	end
-	
+
 	button.MouseButton1Click:Connect(function()
 		HideAll()
 		configTab.Visible = true
 	end)
 end
-coroutine.wrap(FMWTVDY_fake_script)()
-local function TEPISA_fake_script() -- Draggable.LocalScript 
+coroutine.wrap(RKOD_fake_script)()
+local function NFZG_fake_script() -- Draggable.LocalScript 
 	local script = Instance.new('LocalScript', Draggable)
 
 	local UserInputService = game:GetService("UserInputService")
 	local TextButton = script.Parent -- Replace with the path to your TextButton object
 	local Frame = TextButton.Parent
 	local PlayerHumanoid = game.Players.LocalPlayer.Character:WaitForChild("Humanoid")
-	
+
 	local function updateValue(input)
 		local position = input.Position.X - Frame.AbsolutePosition.X
 		local size = Frame.AbsoluteSize.X
@@ -1623,7 +1633,7 @@ local function TEPISA_fake_script() -- Draggable.LocalScript
 		script.Parent.Parent.Parent.Value.Text = tostring(newValue)
 		PlayerHumanoid.WalkSpeed = newValue
 	end
-	
+
 	TextButton.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 then
 			updateValue(input)
@@ -1641,17 +1651,17 @@ local function TEPISA_fake_script() -- Draggable.LocalScript
 			end)
 		end
 	end)
-	
+
 end
-coroutine.wrap(TEPISA_fake_script)()
-local function JFHIZNN_fake_script() -- Checkmark.LocalScript 
+coroutine.wrap(NFZG_fake_script)()
+local function SHJKS_fake_script() -- Checkmark.LocalScript 
 	local script = Instance.new('LocalScript', Checkmark)
 
 	local button = script.Parent
 	local chkmarkholder = script.Parent.Parent
 	local debounce = false
 	local id = "rbxassetid://12577604902"
-	
+
 	button.MouseButton1Click:Connect(function()
 		if debounce == false then
 			script.Parent.Image = 0
@@ -1664,15 +1674,15 @@ local function JFHIZNN_fake_script() -- Checkmark.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JFHIZNN_fake_script)()
-local function AKGXD_fake_script() -- Title_8.Toggle 
+coroutine.wrap(SHJKS_fake_script)()
+local function LRNFII_fake_script() -- Title_8.Toggle 
 	local script = Instance.new('LocalScript', Title_8)
 
 	local frame = script.Parent.Parent
 	local holder = frame.OptionHolder
 	local button = script.Parent
 	local debounce = false
-	
+
 	button.MouseButton1Click:Connect(function()
 		if debounce == false then
 			frame.Size = UDim2.new(1,0,0,130)
@@ -1685,25 +1695,25 @@ local function AKGXD_fake_script() -- Title_8.Toggle
 		end
 	end)
 end
-coroutine.wrap(AKGXD_fake_script)()
-local function JUNCT_fake_script() -- Title_10.Fly 
+coroutine.wrap(LRNFII_fake_script)()
+local function DWNLQ_fake_script() -- Title_10.Fly 
 	local script = Instance.new('LocalScript', Title_10)
 
 	speeds = 1
 	local onof = script.Parent
-	
+
 	local speaker = game:GetService("Players").LocalPlayer
-	
+
 	local chr = game.Players.LocalPlayer.Character
 	local hum = chr and chr:FindFirstChildWhichIsA("Humanoid")
-	
+
 	nowe = false
-	
+
 	onof.MouseButton1Down:connect(function()
-	
+
 		if nowe == true then
 			nowe = false
-	
+
 			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Climbing,true)
 			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.FallingDown,true)
 			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Flying,true)
@@ -1722,15 +1732,15 @@ local function JUNCT_fake_script() -- Title_10.Fly
 			speaker.Character.Humanoid:ChangeState(Enum.HumanoidStateType.RunningNoPhysics)
 		else 
 			nowe = true
-	
-	
-	
+
+
+
 			for i = 1, speeds do
 				spawn(function()
-	
+
 					local hb = game:GetService("RunService").Heartbeat	
-	
-	
+
+
 					tpwalking = true
 					local chr = game.Players.LocalPlayer.Character
 					local hum = chr and chr:FindFirstChildWhichIsA("Humanoid")
@@ -1739,13 +1749,13 @@ local function JUNCT_fake_script() -- Title_10.Fly
 							chr:TranslateBy(hum.MoveDirection)
 						end
 					end
-	
+
 				end)
 			end
 			game.Players.LocalPlayer.Character.Animate.Disabled = true
 			local Char = game.Players.LocalPlayer.Character
 			local Hum = Char:FindFirstChildOfClass("Humanoid") or Char:FindFirstChildOfClass("AnimationController")
-	
+
 			for i,v in next, Hum:GetPlayingAnimationTracks() do
 				v:AdjustSpeed(0)
 			end
@@ -1766,14 +1776,14 @@ local function JUNCT_fake_script() -- Title_10.Fly
 			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Swimming,false)
 			speaker.Character.Humanoid:ChangeState(Enum.HumanoidStateType.Swimming)
 		end
-	
-	
-	
-	
+
+
+
+
 		if game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid").RigType == Enum.HumanoidRigType.R6 then
-	
-	
-	
+
+
+
 			local plr = game.Players.LocalPlayer
 			local torso = plr.Character.Torso
 			local flying = true
@@ -1782,8 +1792,8 @@ local function JUNCT_fake_script() -- Title_10.Fly
 			local lastctrl = {f = 0, b = 0, l = 0, r = 0}
 			local maxspeed = 50
 			local speed = 0
-	
-	
+
+
 			local bg = Instance.new("BodyGyro", torso)
 			bg.P = 9e4
 			bg.maxTorque = Vector3.new(9e9, 9e9, 9e9)
@@ -1796,7 +1806,7 @@ local function JUNCT_fake_script() -- Title_10.Fly
 			end
 			while nowe == true or game:GetService("Players").LocalPlayer.Character.Humanoid.Health == 0 do
 				game:GetService("RunService").RenderStepped:Wait()
-	
+
 				if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
 					speed = speed+.5+(speed/maxspeed)
 					if speed > maxspeed then
@@ -1827,10 +1837,10 @@ local function JUNCT_fake_script() -- Title_10.Fly
 			plr.Character.Humanoid.PlatformStand = false
 			game.Players.LocalPlayer.Character.Animate.Disabled = false
 			tpwalking = false
-	
-	
-	
-	
+
+
+
+
 		else
 			local plr = game.Players.LocalPlayer
 			local UpperTorso = plr.Character.UpperTorso
@@ -1840,8 +1850,8 @@ local function JUNCT_fake_script() -- Title_10.Fly
 			local lastctrl = {f = 0, b = 0, l = 0, r = 0}
 			local maxspeed = 50
 			local speed = 0
-	
-	
+
+
 			local bg = Instance.new("BodyGyro", UpperTorso)
 			bg.P = 9e4
 			bg.maxTorque = Vector3.new(9e9, 9e9, 9e9)
@@ -1854,7 +1864,7 @@ local function JUNCT_fake_script() -- Title_10.Fly
 			end
 			while nowe == true or game:GetService("Players").LocalPlayer.Character.Humanoid.Health == 0 do
 				wait()
-	
+
 				if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
 					speed = speed+.5+(speed/maxspeed)
 					if speed > maxspeed then
@@ -1874,7 +1884,7 @@ local function JUNCT_fake_script() -- Title_10.Fly
 				else
 					bv.velocity = Vector3.new(0,0,0)
 				end
-	
+
 				bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0)
 			end
 			ctrl = {f = 0, b = 0, l = 0, r = 0}
@@ -1885,14 +1895,14 @@ local function JUNCT_fake_script() -- Title_10.Fly
 			plr.Character.Humanoid.PlatformStand = false
 			game.Players.LocalPlayer.Character.Animate.Disabled = false
 			tpwalking = false
-	
-	
-	
+
+
+
 		end
 	end)
 end
-coroutine.wrap(JUNCT_fake_script)()
-local function VNCQZZT_fake_script() -- Title_11.Noclip 
+coroutine.wrap(DWNLQ_fake_script)()
+local function GLYHFCE_fake_script() -- Title_11.Noclip 
 	local script = Instance.new('LocalScript', Title_11)
 
 	local Workspace = game:GetService("Workspace")
@@ -1902,8 +1912,8 @@ local function VNCQZZT_fake_script() -- Title_11.Noclip
 	local Clipon = false
 	local Toggle = script.Parent
 	local debounce = false
-	
-	
+
+
 	Toggle.MouseButton1Click:connect(function()
 		if debounce == false then
 			Clipon = true
@@ -1926,8 +1936,8 @@ local function VNCQZZT_fake_script() -- Title_11.Noclip
 		end
 	end)
 end
-coroutine.wrap(VNCQZZT_fake_script)()
-local function IZDOIYI_fake_script() -- Title_12.InfJump 
+coroutine.wrap(GLYHFCE_fake_script)()
+local function XAYSTIT_fake_script() -- Title_12.InfJump 
 	local script = Instance.new('LocalScript', Title_12)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1940,15 +1950,15 @@ local function IZDOIYI_fake_script() -- Title_12.InfJump
 		})
 	end)
 end
-coroutine.wrap(IZDOIYI_fake_script)()
-local function JWYXLP_fake_script() -- Slider_2.Slider 
+coroutine.wrap(XAYSTIT_fake_script)()
+local function TUHX_fake_script() -- Slider_2.Slider 
 	local script = Instance.new('LocalScript', Slider_2)
 
 	local UserInputService = game:GetService("UserInputService")
 	local TextButton = script.Parent -- Replace with the path to your TextButton object
 	local Frame = TextButton.Parent
 	local PlayerHumanoid = game.Players.LocalPlayer.Character:WaitForChild("Humanoid")
-	
+
 	local function updateValue(input)
 		local position = input.Position.X - Frame.AbsolutePosition.X
 		local size = Frame.AbsoluteSize.X
@@ -1962,7 +1972,7 @@ local function JWYXLP_fake_script() -- Slider_2.Slider
 		PlayerHumanoid.UseJumpPower = true
 		PlayerHumanoid.JumpPower = newValue
 	end
-	
+
 	TextButton.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 then
 			updateValue(input)
@@ -1980,17 +1990,17 @@ local function JWYXLP_fake_script() -- Slider_2.Slider
 			end)
 		end
 	end)
-	
+
 end
-coroutine.wrap(JWYXLP_fake_script)()
-local function SHWSJ_fake_script() -- Slider_3.Slider 
+coroutine.wrap(TUHX_fake_script)()
+local function PEZVDS_fake_script() -- Slider_3.Slider 
 	local script = Instance.new('LocalScript', Slider_3)
 
 	local UserInputService = game:GetService("UserInputService")
 	local TextButton = script.Parent -- Replace with the path to your TextButton object
 	local Frame = TextButton.Parent
 	local PlayerHumanoid = game.Players.LocalPlayer.Character:WaitForChild("Humanoid")
-	
+
 	local function updateValue(input)
 		local position = input.Position.X - Frame.AbsolutePosition.X
 		local size = Frame.AbsoluteSize.X
@@ -2003,7 +2013,7 @@ local function SHWSJ_fake_script() -- Slider_3.Slider
 		script.Parent.Parent.Parent.Value.Text = tostring(newValue)
 		PlayerHumanoid.WalkSpeed = newValue
 	end
-	
+
 	TextButton.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 then
 			updateValue(input)
@@ -2021,10 +2031,10 @@ local function SHWSJ_fake_script() -- Slider_3.Slider
 			end)
 		end
 	end)
-	
+
 end
-coroutine.wrap(SHWSJ_fake_script)()
-local function SVDPUYD_fake_script() -- HomeTab.Player 
+coroutine.wrap(PEZVDS_fake_script)()
+local function HZKUR_fake_script() -- HomeTab.Player 
 	local script = Instance.new('LocalScript', HomeTab)
 
 	local frame = script.Parent
@@ -2033,42 +2043,42 @@ local function SVDPUYD_fake_script() -- HomeTab.Player
 	local thumbType = Enum.ThumbnailType.AvatarBust
 	local thumbSize = Enum.ThumbnailSize.Size420x420
 	local content, isReady = game.Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
-	
+
 	frame.PlayerImage.Image = content
 	frame.Label.Text = "Welcome Back, ".. player.Name
 end
-coroutine.wrap(SVDPUYD_fake_script)()
-local function QBGCQ_fake_script() -- ReloadGUI.Reload 
+coroutine.wrap(HZKUR_fake_script)()
+local function AXEF_fake_script() -- ReloadGUI.Reload 
 	local script = Instance.new('LocalScript', ReloadGUI)
 
 	local UI = script.Parent.Parent.Parent.Parent.Parent.Parent.Parent
 	local Button = script.Parent
-	
+
 	Button.MouseButton1Click:Connect(function()
 		UI:Destroy()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/BenjaKpokYT/Hackblox/main/Hackblox.lua'))()
 	end)
 end
-coroutine.wrap(QBGCQ_fake_script)()
-local function EQRDODO_fake_script() -- CloseGUI.Close 
+coroutine.wrap(AXEF_fake_script)()
+local function ULQEP_fake_script() -- CloseGUI.Close 
 	local script = Instance.new('LocalScript', CloseGUI)
 
 	local UI = script.Parent.Parent.Parent.Parent.Parent.Parent.Parent
 	local Button = script.Parent
-	
+
 	Button.MouseButton1Click:Connect(function()
 		UI:Destroy()
 	end)
 end
-coroutine.wrap(EQRDODO_fake_script)()
-local function INSTI_fake_script() -- Title_15.Toggle 
+coroutine.wrap(ULQEP_fake_script)()
+local function MFQTD_fake_script() -- Title_15.Toggle 
 	local script = Instance.new('LocalScript', Title_15)
 
 	local frame = script.Parent.Parent
 	local holder = frame.OptionHolder
 	local button = script.Parent
 	local debounce = false
-	
+
 	button.MouseButton1Click:Connect(function()
 		if debounce == false then
 			frame.Size = UDim2.new(1,0,0,95)
@@ -2081,41 +2091,41 @@ local function INSTI_fake_script() -- Title_15.Toggle
 		end
 	end)
 end
-coroutine.wrap(INSTI_fake_script)()
-local function QLCWKFO_fake_script() -- Title_16.LoadIY 
+coroutine.wrap(MFQTD_fake_script)()
+local function SEWRJ_fake_script() -- Title_16.LoadIY 
 	local script = Instance.new('LocalScript', Title_16)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
-	
+
 end
-coroutine.wrap(QLCWKFO_fake_script)()
-local function TUIN_fake_script() -- Title_17.LoadCMD-X 
+coroutine.wrap(SEWRJ_fake_script)()
+local function GWYVF_fake_script() -- Title_17.LoadCMD-X 
 	local script = Instance.new('LocalScript', Title_17)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
 	end)
 end
-coroutine.wrap(TUIN_fake_script)()
-local function AFSLWR_fake_script() -- Title_18.LoadDex 
+coroutine.wrap(GWYVF_fake_script)()
+local function SKZO_fake_script() -- Title_18.LoadDex 
 	local script = Instance.new('LocalScript', Title_18)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/DomainX/main/source',true))()
 	end)
 end
-coroutine.wrap(AFSLWR_fake_script)()
-local function LTJJURB_fake_script() -- MainFrame.Toggle 
+coroutine.wrap(SKZO_fake_script)()
+local function TNJKUPG_fake_script() -- MainFrame.Toggle 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local Frame = script.Parent.Parent.MainFrame
 	local Keycode = Enum.KeyCode.RightControl
-	
+
 	local UIS = game:GetService("UserInputService")
 	local db = false
-	
+
 	UIS.InputBegan:Connect(function(key)
 		if key.KeyCode == Keycode then
 			if UIS:GetFocusedTextBox() == nil then
@@ -2129,10 +2139,10 @@ local function LTJJURB_fake_script() -- MainFrame.Toggle
 			end
 		end
 	end)
-	
+
 end
-coroutine.wrap(LTJJURB_fake_script)()
-local function TFFUHO_fake_script() -- MainUI.Load 
+coroutine.wrap(TNJKUPG_fake_script)()
+local function OTEKQF_fake_script() -- MainUI.Load 
 	local script = Instance.new('LocalScript', MainUI)
 
 	local CoreGui = game:GetService("StarterGui")
@@ -2147,4 +2157,4 @@ local function TFFUHO_fake_script() -- MainUI.Load
 	})
 	script:Destroy()
 end
-coroutine.wrap(TFFUHO_fake_script)()
+coroutine.wrap(OTEKQF_fake_script)()
