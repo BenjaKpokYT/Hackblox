@@ -1,7 +1,6 @@
 # Hackblox, a good and universal script.
 
-##### Version: Beta 3
+##### Version: Beta 4
 
 Changelog:
-- More Bugfixes
-- Added Config Tab
+- Fixed loadstring not working
