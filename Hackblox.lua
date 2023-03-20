@@ -93,111 +93,94 @@ local UICorner_16 = Instance.new("UICorner")
 local Title_6 = Instance.new("TextLabel")
 local UIPadding_13 = Instance.new("UIPadding")
 local ImageLabel_8 = Instance.new("ImageLabel")
-local Label = Instance.new("Frame")
+local Button = Instance.new("Frame")
 local UICorner_17 = Instance.new("UICorner")
-local Title_7 = Instance.new("TextLabel")
 local UIPadding_14 = Instance.new("UIPadding")
 local ImageLabel_9 = Instance.new("ImageLabel")
-local Dropdown = Instance.new("Frame")
-local UICorner_18 = Instance.new("UICorner")
+local Title_7 = Instance.new("TextButton")
+local UtilitiesTab = Instance.new("ScrollingFrame")
 local UIPadding_15 = Instance.new("UIPadding")
-local ImageLabel_10 = Instance.new("ImageLabel")
-local OptionHolder = Instance.new("Frame")
 local UIListLayout_3 = Instance.new("UIListLayout")
-local Option1 = Instance.new("TextButton")
-local UICorner_19 = Instance.new("UICorner")
-local Option2 = Instance.new("TextButton")
-local UICorner_20 = Instance.new("UICorner")
-local Option3 = Instance.new("TextButton")
-local UICorner_21 = Instance.new("UICorner")
-local Title_8 = Instance.new("TextButton")
-local Button = Instance.new("Frame")
-local UICorner_22 = Instance.new("UICorner")
+local Fly = Instance.new("Frame")
+local UICorner_18 = Instance.new("UICorner")
 local UIPadding_16 = Instance.new("UIPadding")
+local ImageLabel_10 = Instance.new("ImageLabel")
+local Title_8 = Instance.new("TextButton")
+local Noclip = Instance.new("Frame")
+local UICorner_19 = Instance.new("UICorner")
+local UIPadding_17 = Instance.new("UIPadding")
 local ImageLabel_11 = Instance.new("ImageLabel")
 local Title_9 = Instance.new("TextButton")
-local UtilitiesTab = Instance.new("ScrollingFrame")
-local UIPadding_17 = Instance.new("UIPadding")
-local UIListLayout_4 = Instance.new("UIListLayout")
-local Fly = Instance.new("Frame")
-local UICorner_23 = Instance.new("UICorner")
+local InfJump = Instance.new("Frame")
+local UICorner_20 = Instance.new("UICorner")
 local UIPadding_18 = Instance.new("UIPadding")
 local ImageLabel_12 = Instance.new("ImageLabel")
 local Title_10 = Instance.new("TextButton")
-local Noclip = Instance.new("Frame")
-local UICorner_24 = Instance.new("UICorner")
+local JumpSlider = Instance.new("Frame")
+local UICorner_21 = Instance.new("UICorner")
+local Title_11 = Instance.new("TextLabel")
 local UIPadding_19 = Instance.new("UIPadding")
-local ImageLabel_13 = Instance.new("ImageLabel")
-local Title_11 = Instance.new("TextButton")
-local InfJump = Instance.new("Frame")
-local UICorner_25 = Instance.new("UICorner")
-local UIPadding_20 = Instance.new("UIPadding")
-local ImageLabel_14 = Instance.new("ImageLabel")
-local Title_12 = Instance.new("TextButton")
-local JumpSliderTMP = Instance.new("Frame")
-local UICorner_26 = Instance.new("UICorner")
-local Title_13 = Instance.new("TextLabel")
-local UIPadding_21 = Instance.new("UIPadding")
 local Value_2 = Instance.new("TextLabel")
 local SliderBack_2 = Instance.new("Frame")
-local UICorner_27 = Instance.new("UICorner")
+local UICorner_22 = Instance.new("UICorner")
 local Slider_2 = Instance.new("TextButton")
-local UICorner_28 = Instance.new("UICorner")
-local SpeedSliderTMP = Instance.new("Frame")
-local UICorner_29 = Instance.new("UICorner")
-local Title_14 = Instance.new("TextLabel")
-local UIPadding_22 = Instance.new("UIPadding")
+local UICorner_23 = Instance.new("UICorner")
+local SpeedSlider = Instance.new("Frame")
+local UICorner_24 = Instance.new("UICorner")
+local Title_12 = Instance.new("TextLabel")
+local UIPadding_20 = Instance.new("UIPadding")
 local Value_3 = Instance.new("TextLabel")
 local SliderBack_3 = Instance.new("Frame")
-local UICorner_30 = Instance.new("UICorner")
+local UICorner_25 = Instance.new("UICorner")
 local Slider_3 = Instance.new("TextButton")
-local UICorner_31 = Instance.new("UICorner")
+local UICorner_26 = Instance.new("UICorner")
 local HomeTab = Instance.new("ScrollingFrame")
-local UIPadding_23 = Instance.new("UIPadding")
+local UIPadding_21 = Instance.new("UIPadding")
 local PlayerImage = Instance.new("ImageLabel")
-local Label_2 = Instance.new("TextLabel")
+local Label = Instance.new("TextLabel")
 local ConfigTab = Instance.new("ScrollingFrame")
-local UIPadding_24 = Instance.new("UIPadding")
+local UIPadding_22 = Instance.new("UIPadding")
+local UIListLayout_4 = Instance.new("UIListLayout")
+local Dropdown = Instance.new("Frame")
+local UICorner_27 = Instance.new("UICorner")
+local UIPadding_23 = Instance.new("UIPadding")
+local ImageLabel_13 = Instance.new("ImageLabel")
+local OptionHolder = Instance.new("Frame")
 local UIListLayout_5 = Instance.new("UIListLayout")
-local Dropdown_2 = Instance.new("Frame")
-local UICorner_32 = Instance.new("UICorner")
-local UIPadding_25 = Instance.new("UIPadding")
-local ImageLabel_15 = Instance.new("ImageLabel")
-local OptionHolder_2 = Instance.new("Frame")
-local UIListLayout_6 = Instance.new("UIListLayout")
 local ReloadGUI = Instance.new("TextButton")
-local UICorner_33 = Instance.new("UICorner")
+local UICorner_28 = Instance.new("UICorner")
 local CloseGUI = Instance.new("TextButton")
-local UICorner_34 = Instance.new("UICorner")
-local Title_15 = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local Title_13 = Instance.new("TextButton")
 local ExploitsTab = Instance.new("ScrollingFrame")
-local UIPadding_26 = Instance.new("UIPadding")
-local UIListLayout_7 = Instance.new("UIListLayout")
+local UIPadding_24 = Instance.new("UIPadding")
+local UIListLayout_6 = Instance.new("UIListLayout")
 local IY = Instance.new("Frame")
-local UICorner_35 = Instance.new("UICorner")
+local UICorner_30 = Instance.new("UICorner")
+local UIPadding_25 = Instance.new("UIPadding")
+local ImageLabel_14 = Instance.new("ImageLabel")
+local Title_14 = Instance.new("TextButton")
+local CMDX = Instance.new("Frame")
+local UICorner_31 = Instance.new("UICorner")
+local UIPadding_26 = Instance.new("UIPadding")
+local ImageLabel_15 = Instance.new("ImageLabel")
+local Title_15 = Instance.new("TextButton")
+local Dex = Instance.new("Frame")
+local UICorner_32 = Instance.new("UICorner")
 local UIPadding_27 = Instance.new("UIPadding")
 local ImageLabel_16 = Instance.new("ImageLabel")
 local Title_16 = Instance.new("TextButton")
-local CMDX = Instance.new("Frame")
-local UICorner_36 = Instance.new("UICorner")
-local UIPadding_28 = Instance.new("UIPadding")
-local ImageLabel_17 = Instance.new("ImageLabel")
-local Title_17 = Instance.new("TextButton")
-local Dex = Instance.new("Frame")
-local UICorner_37 = Instance.new("UICorner")
-local UIPadding_29 = Instance.new("UIPadding")
-local ImageLabel_18 = Instance.new("ImageLabel")
-local Title_18 = Instance.new("TextButton")
 local GameTab = Instance.new("ScrollingFrame")
-local UIPadding_30 = Instance.new("UIPadding")
-local UIListLayout_8 = Instance.new("UIListLayout")
+local UIPadding_28 = Instance.new("UIPadding")
+local UIListLayout_7 = Instance.new("UIListLayout")
 local Error_2 = Instance.new("Frame")
-local UICorner_38 = Instance.new("UICorner")
-local Title_19 = Instance.new("TextLabel")
-local UIPadding_31 = Instance.new("UIPadding")
-local ImageLabel_19 = Instance.new("ImageLabel")
+local UICorner_33 = Instance.new("UICorner")
+local Title_17 = Instance.new("TextLabel")
+local UIPadding_29 = Instance.new("UIPadding")
+local ImageLabel_17 = Instance.new("ImageLabel")
 local DropShadowHolder = Instance.new("Frame")
 local DropShadow = Instance.new("ImageLabel")
+local NotificationHolder = Instance.new("Frame")
 
 --Properties:
 
@@ -218,7 +201,7 @@ UICorner.Parent = MainFrame
 
 TopBar.Name = "TopBar"
 TopBar.Parent = MainFrame
-TopBar.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
+TopBar.BackgroundColor3 = Color3.fromRGB(9, 200, 100)
 TopBar.Size = UDim2.new(1, 0, 0, 30)
 
 UICorner_2.CornerRadius = UDim.new(0, 6)
@@ -235,7 +218,7 @@ Line.Size = UDim2.new(1, 0, 0, 1)
 Extension.Name = "Extension"
 Extension.Parent = TopBar
 Extension.AnchorPoint = Vector2.new(0.5, 1)
-Extension.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
+Extension.BackgroundColor3 = Color3.fromRGB(9, 200, 100)
 Extension.BorderSizePixel = 0
 Extension.Position = UDim2.new(0.5, 0, 1, 0)
 Extension.Size = UDim2.new(1, 0, 0, 5)
@@ -303,7 +286,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 8)
 Home.Name = "Home"
 Home.Parent = ButtonHolder
 Home.Active = false
-Home.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
+Home.BackgroundColor3 = Color3.fromRGB(0, 200, 100)
 Home.Selectable = false
 Home.Size = UDim2.new(1, 0, 0, 24)
 Home.Font = Enum.Font.Ubuntu
@@ -325,6 +308,7 @@ ImageLabel.Position = UDim2.new(0, -24, 0.5, 0)
 ImageLabel.Size = UDim2.new(0, 20, 0, 20)
 ImageLabel.Image = "rbxassetid://12576663818"
 
+UICorner_4.CornerRadius = UDim.new(0, 5)
 UICorner_4.Parent = Home
 
 UIListLayout.Parent = ButtonHolder
@@ -334,7 +318,7 @@ UIListLayout.Padding = UDim.new(0, 8)
 GameXD.Name = "GameXD"
 GameXD.Parent = ButtonHolder
 GameXD.Active = false
-GameXD.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
+GameXD.BackgroundColor3 = Color3.fromRGB(0, 200, 100)
 GameXD.Selectable = false
 GameXD.Size = UDim2.new(1, 0, 0, 24)
 GameXD.Font = Enum.Font.Ubuntu
@@ -356,12 +340,13 @@ ImageLabel_2.Position = UDim2.new(0, -24, 0.5, 0)
 ImageLabel_2.Size = UDim2.new(0, 20, 0, 20)
 ImageLabel_2.Image = "http://www.roblox.com/asset/?id=6034848748"
 
+UICorner_5.CornerRadius = UDim.new(0, 5)
 UICorner_5.Parent = GameXD
 
 Utilities.Name = "Utilities"
 Utilities.Parent = ButtonHolder
 Utilities.Active = false
-Utilities.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
+Utilities.BackgroundColor3 = Color3.fromRGB(0, 200, 100)
 Utilities.Selectable = false
 Utilities.Size = UDim2.new(1, 0, 0, 24)
 Utilities.Font = Enum.Font.Ubuntu
@@ -383,12 +368,13 @@ ImageLabel_3.Position = UDim2.new(0, -24, 0.5, 0)
 ImageLabel_3.Size = UDim2.new(0, 20, 0, 20)
 ImageLabel_3.Image = "rbxassetid://7072723685"
 
+UICorner_6.CornerRadius = UDim.new(0, 5)
 UICorner_6.Parent = Utilities
 
 OtherExploits.Name = "OtherExploits"
 OtherExploits.Parent = ButtonHolder
 OtherExploits.Active = false
-OtherExploits.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
+OtherExploits.BackgroundColor3 = Color3.fromRGB(0, 200, 100)
 OtherExploits.Selectable = false
 OtherExploits.Size = UDim2.new(1, 0, 0, 24)
 OtherExploits.Font = Enum.Font.Ubuntu
@@ -410,12 +396,13 @@ ImageLabel_4.Position = UDim2.new(0, -24, 0.5, 0)
 ImageLabel_4.Size = UDim2.new(0, 20, 0, 20)
 ImageLabel_4.Image = "rbxassetid://7072707514"
 
+UICorner_7.CornerRadius = UDim.new(0, 5)
 UICorner_7.Parent = OtherExploits
 
 Config.Name = "Config"
 Config.Parent = ButtonHolder
 Config.Active = false
-Config.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
+Config.BackgroundColor3 = Color3.fromRGB(0, 200, 100)
 Config.Selectable = false
 Config.Size = UDim2.new(1, 0, 0, 24)
 Config.Font = Enum.Font.Ubuntu
@@ -437,6 +424,7 @@ ImageLabel_5.Position = UDim2.new(0, -24, 0.5, 0)
 ImageLabel_5.Size = UDim2.new(0, 20, 0, 20)
 ImageLabel_5.Image = "http://www.roblox.com/asset/?id=6031280882"
 
+UICorner_8.CornerRadius = UDim.new(0, 5)
 UICorner_8.Parent = Config
 
 ContentContainer.Name = "ContentContainer"
@@ -555,7 +543,7 @@ UIPadding_10.PaddingTop = UDim.new(0, 6)
 CheckmarkHolder.Name = "CheckmarkHolder"
 CheckmarkHolder.Parent = Toggle
 CheckmarkHolder.AnchorPoint = Vector2.new(1, 0)
-CheckmarkHolder.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
+CheckmarkHolder.BackgroundColor3 = Color3.fromRGB(9, 200, 100)
 CheckmarkHolder.BorderColor3 = Color3.fromRGB(48, 48, 48)
 CheckmarkHolder.Position = UDim2.new(1, 0, 0, 0)
 CheckmarkHolder.Size = UDim2.new(0, 20, 0, 20)
@@ -671,156 +659,39 @@ ImageLabel_8.Position = UDim2.new(0, -23, 0, -3)
 ImageLabel_8.Size = UDim2.new(0, 20, 0, 20)
 ImageLabel_8.Image = "rbxassetid://12577109177"
 
-Label.Name = "Label"
-Label.Parent = LibraryTab
-Label.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
-Label.Size = UDim2.new(1, 0, 0, 28)
+Button.Name = "Button"
+Button.Parent = LibraryTab
+Button.BackgroundColor3 = Color3.fromRGB(0, 200, 100)
+Button.Size = UDim2.new(1, 0, 0, 32)
 
 UICorner_17.CornerRadius = UDim.new(0, 4)
-UICorner_17.Parent = Label
+UICorner_17.Parent = Button
+
+UIPadding_14.Parent = Button
+UIPadding_14.PaddingBottom = UDim.new(0, 6)
+UIPadding_14.PaddingLeft = UDim.new(0, 6)
+UIPadding_14.PaddingRight = UDim.new(0, 6)
+UIPadding_14.PaddingTop = UDim.new(0, 6)
+
+ImageLabel_9.Parent = Button
+ImageLabel_9.AnchorPoint = Vector2.new(1, 0)
+ImageLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_9.BackgroundTransparency = 1.000
+ImageLabel_9.Position = UDim2.new(1, 0, 0, 0)
+ImageLabel_9.Size = UDim2.new(0, 20, 0, 20)
+ImageLabel_9.Image = "rbxassetid://12576880013"
 
 Title_7.Name = "Title"
-Title_7.Parent = Label
+Title_7.Parent = Button
+Title_7.Active = false
 Title_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Title_7.BackgroundTransparency = 1.000
+Title_7.Selectable = false
 Title_7.Size = UDim2.new(1, 0, 1, 0)
 Title_7.Font = Enum.Font.Ubuntu
 Title_7.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title_7.TextSize = 14.000
 Title_7.TextXAlignment = Enum.TextXAlignment.Left
-
-UIPadding_14.Parent = Label
-UIPadding_14.PaddingBottom = UDim.new(0, 6)
-UIPadding_14.PaddingLeft = UDim.new(0, 26)
-UIPadding_14.PaddingRight = UDim.new(0, 6)
-UIPadding_14.PaddingTop = UDim.new(0, 8)
-
-ImageLabel_9.Parent = Label
-ImageLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_9.BackgroundTransparency = 1.000
-ImageLabel_9.Position = UDim2.new(0, -23, 0, -3)
-ImageLabel_9.Size = UDim2.new(0, 20, 0, 20)
-ImageLabel_9.Image = "rbxassetid://12577090472"
-
-Dropdown.Name = "Dropdown"
-Dropdown.Parent = LibraryTab
-Dropdown.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
-Dropdown.Size = UDim2.new(1, 0, 0, 30)
-
-UICorner_18.CornerRadius = UDim.new(0, 4)
-UICorner_18.Parent = Dropdown
-
-UIPadding_15.Parent = Dropdown
-UIPadding_15.PaddingBottom = UDim.new(0, 6)
-UIPadding_15.PaddingLeft = UDim.new(0, 6)
-UIPadding_15.PaddingRight = UDim.new(0, 6)
-UIPadding_15.PaddingTop = UDim.new(0, 6)
-
-ImageLabel_10.Parent = Dropdown
-ImageLabel_10.AnchorPoint = Vector2.new(1, 0)
-ImageLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_10.BackgroundTransparency = 1.000
-ImageLabel_10.Position = UDim2.new(1, 0, 0, 0)
-ImageLabel_10.Size = UDim2.new(0, 20, 0, 20)
-ImageLabel_10.Image = "rbxassetid://12577275353"
-
-OptionHolder.Name = "OptionHolder"
-OptionHolder.Parent = Dropdown
-OptionHolder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-OptionHolder.BackgroundTransparency = 1.000
-OptionHolder.Position = UDim2.new(0, 0, 0, 30)
-OptionHolder.Size = UDim2.new(1, 0, 1, -30)
-OptionHolder.Visible = false
-
-UIListLayout_3.Parent = OptionHolder
-UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
-UIListLayout_3.Padding = UDim.new(0, 6)
-
-Option1.Name = "Option1"
-Option1.Parent = OptionHolder
-Option1.Active = false
-Option1.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
-Option1.Selectable = false
-Option1.Size = UDim2.new(1, 0, 0, 24)
-Option1.Font = Enum.Font.Ubuntu
-Option1.Text = "Option"
-Option1.TextColor3 = Color3.fromRGB(255, 255, 255)
-Option1.TextSize = 14.000
-
-UICorner_19.Parent = Option1
-
-Option2.Name = "Option2"
-Option2.Parent = OptionHolder
-Option2.Active = false
-Option2.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
-Option2.Selectable = false
-Option2.Size = UDim2.new(1, 0, 0, 24)
-Option2.Font = Enum.Font.Ubuntu
-Option2.Text = "Option"
-Option2.TextColor3 = Color3.fromRGB(255, 255, 255)
-Option2.TextSize = 14.000
-
-UICorner_20.Parent = Option2
-
-Option3.Name = "Option3"
-Option3.Parent = OptionHolder
-Option3.Active = false
-Option3.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
-Option3.Selectable = false
-Option3.Size = UDim2.new(1, 0, 0, 24)
-Option3.Font = Enum.Font.Ubuntu
-Option3.Text = "Option"
-Option3.TextColor3 = Color3.fromRGB(255, 255, 255)
-Option3.TextSize = 14.000
-
-UICorner_21.Parent = Option3
-
-Title_8.Name = "Title"
-Title_8.Parent = Dropdown
-Title_8.Active = false
-Title_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title_8.BackgroundTransparency = 1.000
-Title_8.Selectable = false
-Title_8.Size = UDim2.new(1, 0, 0, 20)
-Title_8.Font = Enum.Font.Ubuntu
-Title_8.Text = "Dropdown"
-Title_8.TextColor3 = Color3.fromRGB(255, 255, 255)
-Title_8.TextSize = 14.000
-Title_8.TextXAlignment = Enum.TextXAlignment.Left
-
-Button.Name = "Button"
-Button.Parent = LibraryTab
-Button.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
-Button.Size = UDim2.new(1, 0, 0, 32)
-
-UICorner_22.CornerRadius = UDim.new(0, 4)
-UICorner_22.Parent = Button
-
-UIPadding_16.Parent = Button
-UIPadding_16.PaddingBottom = UDim.new(0, 6)
-UIPadding_16.PaddingLeft = UDim.new(0, 6)
-UIPadding_16.PaddingRight = UDim.new(0, 6)
-UIPadding_16.PaddingTop = UDim.new(0, 6)
-
-ImageLabel_11.Parent = Button
-ImageLabel_11.AnchorPoint = Vector2.new(1, 0)
-ImageLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_11.BackgroundTransparency = 1.000
-ImageLabel_11.Position = UDim2.new(1, 0, 0, 0)
-ImageLabel_11.Size = UDim2.new(0, 20, 0, 20)
-ImageLabel_11.Image = "rbxassetid://12576880013"
-
-Title_9.Name = "Title"
-Title_9.Parent = Button
-Title_9.Active = false
-Title_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title_9.BackgroundTransparency = 1.000
-Title_9.Selectable = false
-Title_9.Size = UDim2.new(1, 0, 1, 0)
-Title_9.Font = Enum.Font.Ubuntu
-Title_9.TextColor3 = Color3.fromRGB(255, 255, 255)
-Title_9.TextSize = 14.000
-Title_9.TextXAlignment = Enum.TextXAlignment.Left
 
 UtilitiesTab.Name = "UtilitiesTab"
 UtilitiesTab.Parent = ContentContainer
@@ -832,31 +703,101 @@ UtilitiesTab.Size = UDim2.new(1, 0, 1, 0)
 UtilitiesTab.Visible = false
 UtilitiesTab.ScrollBarThickness = 0
 
-UIPadding_17.Parent = UtilitiesTab
-UIPadding_17.PaddingBottom = UDim.new(0, 1)
-UIPadding_17.PaddingLeft = UDim.new(0, 1)
-UIPadding_17.PaddingRight = UDim.new(0, 1)
-UIPadding_17.PaddingTop = UDim.new(0, 1)
+UIPadding_15.Parent = UtilitiesTab
+UIPadding_15.PaddingBottom = UDim.new(0, 1)
+UIPadding_15.PaddingLeft = UDim.new(0, 1)
+UIPadding_15.PaddingRight = UDim.new(0, 1)
+UIPadding_15.PaddingTop = UDim.new(0, 1)
 
-UIListLayout_4.Parent = UtilitiesTab
-UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
-UIListLayout_4.Padding = UDim.new(0, 6)
+UIListLayout_3.Parent = UtilitiesTab
+UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_3.Padding = UDim.new(0, 6)
 
 Fly.Name = "Fly"
 Fly.Parent = UtilitiesTab
-Fly.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
+Fly.BackgroundColor3 = Color3.fromRGB(9, 200, 100)
 Fly.Size = UDim2.new(1, 0, 0, 32)
 
-UICorner_23.CornerRadius = UDim.new(0, 4)
-UICorner_23.Parent = Fly
+UICorner_18.CornerRadius = UDim.new(0, 4)
+UICorner_18.Parent = Fly
 
-UIPadding_18.Parent = Fly
+UIPadding_16.Parent = Fly
+UIPadding_16.PaddingBottom = UDim.new(0, 6)
+UIPadding_16.PaddingLeft = UDim.new(0, 6)
+UIPadding_16.PaddingRight = UDim.new(0, 6)
+UIPadding_16.PaddingTop = UDim.new(0, 6)
+
+ImageLabel_10.Parent = Fly
+ImageLabel_10.AnchorPoint = Vector2.new(1, 0)
+ImageLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_10.BackgroundTransparency = 1.000
+ImageLabel_10.Position = UDim2.new(1, 0, 0, 0)
+ImageLabel_10.Size = UDim2.new(0, 20, 0, 20)
+ImageLabel_10.Image = "rbxassetid://12576880013"
+
+Title_8.Name = "Title"
+Title_8.Parent = Fly
+Title_8.Active = false
+Title_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_8.BackgroundTransparency = 1.000
+Title_8.Selectable = false
+Title_8.Size = UDim2.new(1, 0, 1, 0)
+Title_8.Font = Enum.Font.Ubuntu
+Title_8.Text = "Fly"
+Title_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_8.TextSize = 14.000
+Title_8.TextXAlignment = Enum.TextXAlignment.Left
+
+Noclip.Name = "Noclip"
+Noclip.Parent = UtilitiesTab
+Noclip.BackgroundColor3 = Color3.fromRGB(9, 200, 100)
+Noclip.Size = UDim2.new(1, 0, 0, 32)
+
+UICorner_19.CornerRadius = UDim.new(0, 4)
+UICorner_19.Parent = Noclip
+
+UIPadding_17.Parent = Noclip
+UIPadding_17.PaddingBottom = UDim.new(0, 6)
+UIPadding_17.PaddingLeft = UDim.new(0, 6)
+UIPadding_17.PaddingRight = UDim.new(0, 6)
+UIPadding_17.PaddingTop = UDim.new(0, 6)
+
+ImageLabel_11.Parent = Noclip
+ImageLabel_11.AnchorPoint = Vector2.new(1, 0)
+ImageLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_11.BackgroundTransparency = 1.000
+ImageLabel_11.Position = UDim2.new(1, 0, 0, 0)
+ImageLabel_11.Size = UDim2.new(0, 20, 0, 20)
+ImageLabel_11.Image = "rbxassetid://12576880013"
+
+Title_9.Name = "Title"
+Title_9.Parent = Noclip
+Title_9.Active = false
+Title_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_9.BackgroundTransparency = 1.000
+Title_9.Selectable = false
+Title_9.Size = UDim2.new(1, 0, 1, 0)
+Title_9.Font = Enum.Font.Ubuntu
+Title_9.Text = "Noclip"
+Title_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_9.TextSize = 14.000
+Title_9.TextXAlignment = Enum.TextXAlignment.Left
+
+InfJump.Name = "InfJump"
+InfJump.Parent = UtilitiesTab
+InfJump.BackgroundColor3 = Color3.fromRGB(9, 200, 100)
+InfJump.Size = UDim2.new(1, 0, 0, 32)
+
+UICorner_20.CornerRadius = UDim.new(0, 4)
+UICorner_20.Parent = InfJump
+
+UIPadding_18.Parent = InfJump
 UIPadding_18.PaddingBottom = UDim.new(0, 6)
 UIPadding_18.PaddingLeft = UDim.new(0, 6)
 UIPadding_18.PaddingRight = UDim.new(0, 6)
 UIPadding_18.PaddingTop = UDim.new(0, 6)
 
-ImageLabel_12.Parent = Fly
+ImageLabel_12.Parent = InfJump
 ImageLabel_12.AnchorPoint = Vector2.new(1, 0)
 ImageLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel_12.BackgroundTransparency = 1.000
@@ -865,115 +806,45 @@ ImageLabel_12.Size = UDim2.new(0, 20, 0, 20)
 ImageLabel_12.Image = "rbxassetid://12576880013"
 
 Title_10.Name = "Title"
-Title_10.Parent = Fly
+Title_10.Parent = InfJump
 Title_10.Active = false
 Title_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Title_10.BackgroundTransparency = 1.000
 Title_10.Selectable = false
 Title_10.Size = UDim2.new(1, 0, 1, 0)
 Title_10.Font = Enum.Font.Ubuntu
-Title_10.Text = "Fly"
+Title_10.Text = "Infinite Jump"
 Title_10.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title_10.TextSize = 14.000
 Title_10.TextXAlignment = Enum.TextXAlignment.Left
 
-Noclip.Name = "Noclip"
-Noclip.Parent = UtilitiesTab
-Noclip.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
-Noclip.Size = UDim2.new(1, 0, 0, 32)
+JumpSlider.Name = "JumpSlider"
+JumpSlider.Parent = UtilitiesTab
+JumpSlider.BackgroundColor3 = Color3.fromRGB(9, 200, 100)
+JumpSlider.Size = UDim2.new(1, 0, 0, 38)
 
-UICorner_24.CornerRadius = UDim.new(0, 4)
-UICorner_24.Parent = Noclip
+UICorner_21.CornerRadius = UDim.new(0, 4)
+UICorner_21.Parent = JumpSlider
 
-UIPadding_19.Parent = Noclip
+Title_11.Name = "Title"
+Title_11.Parent = JumpSlider
+Title_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_11.BackgroundTransparency = 1.000
+Title_11.Size = UDim2.new(1, -24, 1, -10)
+Title_11.Font = Enum.Font.Ubuntu
+Title_11.Text = "Jump Power"
+Title_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_11.TextSize = 14.000
+Title_11.TextXAlignment = Enum.TextXAlignment.Left
+
+UIPadding_19.Parent = JumpSlider
 UIPadding_19.PaddingBottom = UDim.new(0, 6)
 UIPadding_19.PaddingLeft = UDim.new(0, 6)
 UIPadding_19.PaddingRight = UDim.new(0, 6)
 UIPadding_19.PaddingTop = UDim.new(0, 6)
 
-ImageLabel_13.Parent = Noclip
-ImageLabel_13.AnchorPoint = Vector2.new(1, 0)
-ImageLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_13.BackgroundTransparency = 1.000
-ImageLabel_13.Position = UDim2.new(1, 0, 0, 0)
-ImageLabel_13.Size = UDim2.new(0, 20, 0, 20)
-ImageLabel_13.Image = "rbxassetid://12576880013"
-
-Title_11.Name = "Title"
-Title_11.Parent = Noclip
-Title_11.Active = false
-Title_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title_11.BackgroundTransparency = 1.000
-Title_11.Selectable = false
-Title_11.Size = UDim2.new(1, 0, 1, 0)
-Title_11.Font = Enum.Font.Ubuntu
-Title_11.Text = "Noclip"
-Title_11.TextColor3 = Color3.fromRGB(255, 255, 255)
-Title_11.TextSize = 14.000
-Title_11.TextXAlignment = Enum.TextXAlignment.Left
-
-InfJump.Name = "InfJump"
-InfJump.Parent = UtilitiesTab
-InfJump.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
-InfJump.Size = UDim2.new(1, 0, 0, 32)
-
-UICorner_25.CornerRadius = UDim.new(0, 4)
-UICorner_25.Parent = InfJump
-
-UIPadding_20.Parent = InfJump
-UIPadding_20.PaddingBottom = UDim.new(0, 6)
-UIPadding_20.PaddingLeft = UDim.new(0, 6)
-UIPadding_20.PaddingRight = UDim.new(0, 6)
-UIPadding_20.PaddingTop = UDim.new(0, 6)
-
-ImageLabel_14.Parent = InfJump
-ImageLabel_14.AnchorPoint = Vector2.new(1, 0)
-ImageLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_14.BackgroundTransparency = 1.000
-ImageLabel_14.Position = UDim2.new(1, 0, 0, 0)
-ImageLabel_14.Size = UDim2.new(0, 20, 0, 20)
-ImageLabel_14.Image = "rbxassetid://12576880013"
-
-Title_12.Name = "Title"
-Title_12.Parent = InfJump
-Title_12.Active = false
-Title_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title_12.BackgroundTransparency = 1.000
-Title_12.Selectable = false
-Title_12.Size = UDim2.new(1, 0, 1, 0)
-Title_12.Font = Enum.Font.Ubuntu
-Title_12.Text = "Infinite Jump"
-Title_12.TextColor3 = Color3.fromRGB(255, 255, 255)
-Title_12.TextSize = 14.000
-Title_12.TextXAlignment = Enum.TextXAlignment.Left
-
-JumpSliderTMP.Name = "JumpSliderTMP"
-JumpSliderTMP.Parent = UtilitiesTab
-JumpSliderTMP.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
-JumpSliderTMP.Size = UDim2.new(1, 0, 0, 38)
-
-UICorner_26.CornerRadius = UDim.new(0, 4)
-UICorner_26.Parent = JumpSliderTMP
-
-Title_13.Name = "Title"
-Title_13.Parent = JumpSliderTMP
-Title_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title_13.BackgroundTransparency = 1.000
-Title_13.Size = UDim2.new(1, -24, 1, -10)
-Title_13.Font = Enum.Font.Ubuntu
-Title_13.Text = "Jump Power"
-Title_13.TextColor3 = Color3.fromRGB(255, 255, 255)
-Title_13.TextSize = 14.000
-Title_13.TextXAlignment = Enum.TextXAlignment.Left
-
-UIPadding_21.Parent = JumpSliderTMP
-UIPadding_21.PaddingBottom = UDim.new(0, 6)
-UIPadding_21.PaddingLeft = UDim.new(0, 6)
-UIPadding_21.PaddingRight = UDim.new(0, 6)
-UIPadding_21.PaddingTop = UDim.new(0, 6)
-
 Value_2.Name = "Value"
-Value_2.Parent = JumpSliderTMP
+Value_2.Parent = JumpSlider
 Value_2.AnchorPoint = Vector2.new(1, 0)
 Value_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Value_2.BackgroundTransparency = 1.000
@@ -986,13 +857,13 @@ Value_2.TextSize = 14.000
 Value_2.TextXAlignment = Enum.TextXAlignment.Right
 
 SliderBack_2.Name = "SliderBack"
-SliderBack_2.Parent = JumpSliderTMP
+SliderBack_2.Parent = JumpSlider
 SliderBack_2.AnchorPoint = Vector2.new(0, 1)
 SliderBack_2.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
 SliderBack_2.Position = UDim2.new(0, 0, 1, 0)
 SliderBack_2.Size = UDim2.new(1, 0, 0, 4)
 
-UICorner_27.Parent = SliderBack_2
+UICorner_22.Parent = SliderBack_2
 
 Slider_2.Name = "Slider"
 Slider_2.Parent = SliderBack_2
@@ -1004,35 +875,35 @@ Slider_2.Selectable = false
 Slider_2.Size = UDim2.new(0, 5, 0, 10)
 Slider_2.Text = ""
 
-UICorner_28.Parent = Slider_2
+UICorner_23.Parent = Slider_2
 
-SpeedSliderTMP.Name = "SpeedSliderTMP"
-SpeedSliderTMP.Parent = UtilitiesTab
-SpeedSliderTMP.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
-SpeedSliderTMP.Size = UDim2.new(1, 0, 0, 38)
+SpeedSlider.Name = "SpeedSlider"
+SpeedSlider.Parent = UtilitiesTab
+SpeedSlider.BackgroundColor3 = Color3.fromRGB(9, 200, 100)
+SpeedSlider.Size = UDim2.new(1, 0, 0, 38)
 
-UICorner_29.CornerRadius = UDim.new(0, 4)
-UICorner_29.Parent = SpeedSliderTMP
+UICorner_24.CornerRadius = UDim.new(0, 4)
+UICorner_24.Parent = SpeedSlider
 
-Title_14.Name = "Title"
-Title_14.Parent = SpeedSliderTMP
-Title_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title_14.BackgroundTransparency = 1.000
-Title_14.Size = UDim2.new(1, -24, 1, -10)
-Title_14.Font = Enum.Font.Ubuntu
-Title_14.Text = "Speed"
-Title_14.TextColor3 = Color3.fromRGB(255, 255, 255)
-Title_14.TextSize = 14.000
-Title_14.TextXAlignment = Enum.TextXAlignment.Left
+Title_12.Name = "Title"
+Title_12.Parent = SpeedSlider
+Title_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_12.BackgroundTransparency = 1.000
+Title_12.Size = UDim2.new(1, -24, 1, -10)
+Title_12.Font = Enum.Font.Ubuntu
+Title_12.Text = "Speed"
+Title_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_12.TextSize = 14.000
+Title_12.TextXAlignment = Enum.TextXAlignment.Left
 
-UIPadding_22.Parent = SpeedSliderTMP
-UIPadding_22.PaddingBottom = UDim.new(0, 6)
-UIPadding_22.PaddingLeft = UDim.new(0, 6)
-UIPadding_22.PaddingRight = UDim.new(0, 6)
-UIPadding_22.PaddingTop = UDim.new(0, 6)
+UIPadding_20.Parent = SpeedSlider
+UIPadding_20.PaddingBottom = UDim.new(0, 6)
+UIPadding_20.PaddingLeft = UDim.new(0, 6)
+UIPadding_20.PaddingRight = UDim.new(0, 6)
+UIPadding_20.PaddingTop = UDim.new(0, 6)
 
 Value_3.Name = "Value"
-Value_3.Parent = SpeedSliderTMP
+Value_3.Parent = SpeedSlider
 Value_3.AnchorPoint = Vector2.new(1, 0)
 Value_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Value_3.BackgroundTransparency = 1.000
@@ -1045,13 +916,13 @@ Value_3.TextSize = 14.000
 Value_3.TextXAlignment = Enum.TextXAlignment.Right
 
 SliderBack_3.Name = "SliderBack"
-SliderBack_3.Parent = SpeedSliderTMP
+SliderBack_3.Parent = SpeedSlider
 SliderBack_3.AnchorPoint = Vector2.new(0, 1)
 SliderBack_3.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
 SliderBack_3.Position = UDim2.new(0, 0, 1, 0)
 SliderBack_3.Size = UDim2.new(1, 0, 0, 4)
 
-UICorner_30.Parent = SliderBack_3
+UICorner_25.Parent = SliderBack_3
 
 Slider_3.Name = "Slider"
 Slider_3.Parent = SliderBack_3
@@ -1063,7 +934,7 @@ Slider_3.Selectable = false
 Slider_3.Size = UDim2.new(0, 5, 0, 10)
 Slider_3.Text = ""
 
-UICorner_31.Parent = Slider_3
+UICorner_26.Parent = Slider_3
 
 HomeTab.Name = "HomeTab"
 HomeTab.Parent = ContentContainer
@@ -1074,11 +945,11 @@ HomeTab.Selectable = false
 HomeTab.Size = UDim2.new(1, 0, 1, 0)
 HomeTab.ScrollBarThickness = 0
 
-UIPadding_23.Parent = HomeTab
-UIPadding_23.PaddingBottom = UDim.new(0, 1)
-UIPadding_23.PaddingLeft = UDim.new(0, 1)
-UIPadding_23.PaddingRight = UDim.new(0, 1)
-UIPadding_23.PaddingTop = UDim.new(0, 1)
+UIPadding_21.Parent = HomeTab
+UIPadding_21.PaddingBottom = UDim.new(0, 1)
+UIPadding_21.PaddingLeft = UDim.new(0, 1)
+UIPadding_21.PaddingRight = UDim.new(0, 1)
+UIPadding_21.PaddingTop = UDim.new(0, 1)
 
 PlayerImage.Name = "PlayerImage"
 PlayerImage.Parent = HomeTab
@@ -1089,19 +960,19 @@ PlayerImage.Position = UDim2.new(0.5, 0, 0, 0)
 PlayerImage.Size = UDim2.new(0, 100, 0, 100)
 PlayerImage.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
 
-Label_2.Name = "Label"
-Label_2.Parent = HomeTab
-Label_2.AnchorPoint = Vector2.new(0.5, 0)
-Label_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Label_2.BackgroundTransparency = 1.000
-Label_2.Position = UDim2.new(0.5, 0, 0, 120)
-Label_2.Size = UDim2.new(0, 250, 0, 100)
-Label_2.Font = Enum.Font.Ubuntu
-Label_2.Text = "Welcome Back, Username"
-Label_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-Label_2.TextScaled = true
-Label_2.TextSize = 14.000
-Label_2.TextWrapped = true
+Label.Name = "Label"
+Label.Parent = HomeTab
+Label.AnchorPoint = Vector2.new(0.5, 0)
+Label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Label.BackgroundTransparency = 1.000
+Label.Position = UDim2.new(0.5, 0, 0, 120)
+Label.Size = UDim2.new(0, 250, 0, 100)
+Label.Font = Enum.Font.Ubuntu
+Label.Text = "Welcome Back, Username"
+Label.TextColor3 = Color3.fromRGB(255, 255, 255)
+Label.TextScaled = true
+Label.TextSize = 14.000
+Label.TextWrapped = true
 
 ConfigTab.Name = "ConfigTab"
 ConfigTab.Parent = ContentContainer
@@ -1113,54 +984,54 @@ ConfigTab.Size = UDim2.new(1, 0, 1, 0)
 ConfigTab.Visible = false
 ConfigTab.ScrollBarThickness = 0
 
-UIPadding_24.Parent = ConfigTab
-UIPadding_24.PaddingBottom = UDim.new(0, 1)
-UIPadding_24.PaddingLeft = UDim.new(0, 1)
-UIPadding_24.PaddingRight = UDim.new(0, 1)
-UIPadding_24.PaddingTop = UDim.new(0, 1)
+UIPadding_22.Parent = ConfigTab
+UIPadding_22.PaddingBottom = UDim.new(0, 1)
+UIPadding_22.PaddingLeft = UDim.new(0, 1)
+UIPadding_22.PaddingRight = UDim.new(0, 1)
+UIPadding_22.PaddingTop = UDim.new(0, 1)
 
-UIListLayout_5.Parent = ConfigTab
+UIListLayout_4.Parent = ConfigTab
+UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_4.Padding = UDim.new(0, 6)
+
+Dropdown.Name = "Dropdown"
+Dropdown.Parent = ConfigTab
+Dropdown.BackgroundColor3 = Color3.fromRGB(9, 200, 100)
+Dropdown.Size = UDim2.new(1, 0, 0, 30)
+
+UICorner_27.CornerRadius = UDim.new(0, 4)
+UICorner_27.Parent = Dropdown
+
+UIPadding_23.Parent = Dropdown
+UIPadding_23.PaddingBottom = UDim.new(0, 6)
+UIPadding_23.PaddingLeft = UDim.new(0, 6)
+UIPadding_23.PaddingRight = UDim.new(0, 6)
+UIPadding_23.PaddingTop = UDim.new(0, 6)
+
+ImageLabel_13.Parent = Dropdown
+ImageLabel_13.AnchorPoint = Vector2.new(1, 0)
+ImageLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_13.BackgroundTransparency = 1.000
+ImageLabel_13.Position = UDim2.new(1, 0, 0, 0)
+ImageLabel_13.Size = UDim2.new(0, 20, 0, 20)
+ImageLabel_13.Image = "rbxassetid://12577275353"
+
+OptionHolder.Name = "OptionHolder"
+OptionHolder.Parent = Dropdown
+OptionHolder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OptionHolder.BackgroundTransparency = 1.000
+OptionHolder.Position = UDim2.new(0, 0, 0, 30)
+OptionHolder.Size = UDim2.new(1, 0, 1, -30)
+OptionHolder.Visible = false
+
+UIListLayout_5.Parent = OptionHolder
 UIListLayout_5.SortOrder = Enum.SortOrder.LayoutOrder
 UIListLayout_5.Padding = UDim.new(0, 6)
 
-Dropdown_2.Name = "Dropdown"
-Dropdown_2.Parent = ConfigTab
-Dropdown_2.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
-Dropdown_2.Size = UDim2.new(1, 0, 0, 30)
-
-UICorner_32.CornerRadius = UDim.new(0, 4)
-UICorner_32.Parent = Dropdown_2
-
-UIPadding_25.Parent = Dropdown_2
-UIPadding_25.PaddingBottom = UDim.new(0, 6)
-UIPadding_25.PaddingLeft = UDim.new(0, 6)
-UIPadding_25.PaddingRight = UDim.new(0, 6)
-UIPadding_25.PaddingTop = UDim.new(0, 6)
-
-ImageLabel_15.Parent = Dropdown_2
-ImageLabel_15.AnchorPoint = Vector2.new(1, 0)
-ImageLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_15.BackgroundTransparency = 1.000
-ImageLabel_15.Position = UDim2.new(1, 0, 0, 0)
-ImageLabel_15.Size = UDim2.new(0, 20, 0, 20)
-ImageLabel_15.Image = "rbxassetid://12577275353"
-
-OptionHolder_2.Name = "OptionHolder"
-OptionHolder_2.Parent = Dropdown_2
-OptionHolder_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-OptionHolder_2.BackgroundTransparency = 1.000
-OptionHolder_2.Position = UDim2.new(0, 0, 0, 30)
-OptionHolder_2.Size = UDim2.new(1, 0, 1, -30)
-OptionHolder_2.Visible = false
-
-UIListLayout_6.Parent = OptionHolder_2
-UIListLayout_6.SortOrder = Enum.SortOrder.LayoutOrder
-UIListLayout_6.Padding = UDim.new(0, 6)
-
 ReloadGUI.Name = "ReloadGUI"
-ReloadGUI.Parent = OptionHolder_2
+ReloadGUI.Parent = OptionHolder
 ReloadGUI.Active = false
-ReloadGUI.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
+ReloadGUI.BackgroundColor3 = Color3.fromRGB(9, 200, 100)
 ReloadGUI.Selectable = false
 ReloadGUI.Size = UDim2.new(1, 0, 0, 24)
 ReloadGUI.Font = Enum.Font.Ubuntu
@@ -1168,12 +1039,12 @@ ReloadGUI.Text = "Reload GUI"
 ReloadGUI.TextColor3 = Color3.fromRGB(255, 255, 255)
 ReloadGUI.TextSize = 14.000
 
-UICorner_33.Parent = ReloadGUI
+UICorner_28.Parent = ReloadGUI
 
 CloseGUI.Name = "CloseGUI"
-CloseGUI.Parent = OptionHolder_2
+CloseGUI.Parent = OptionHolder
 CloseGUI.Active = false
-CloseGUI.BackgroundColor3 = Color3.fromRGB(0, 145, 189)
+CloseGUI.BackgroundColor3 = Color3.fromRGB(9, 200, 100)
 CloseGUI.Selectable = false
 CloseGUI.Size = UDim2.new(1, 0, 0, 24)
 CloseGUI.Font = Enum.Font.Ubuntu
@@ -1181,20 +1052,20 @@ CloseGUI.Text = "Close GUI"
 CloseGUI.TextColor3 = Color3.fromRGB(255, 255, 255)
 CloseGUI.TextSize = 14.000
 
-UICorner_34.Parent = CloseGUI
+UICorner_29.Parent = CloseGUI
 
-Title_15.Name = "Title"
-Title_15.Parent = Dropdown_2
-Title_15.Active = false
-Title_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title_15.BackgroundTransparency = 1.000
-Title_15.Selectable = false
-Title_15.Size = UDim2.new(1, 0, 0, 20)
-Title_15.Font = Enum.Font.Ubuntu
-Title_15.Text = "UI Settings"
-Title_15.TextColor3 = Color3.fromRGB(255, 255, 255)
-Title_15.TextSize = 14.000
-Title_15.TextXAlignment = Enum.TextXAlignment.Left
+Title_13.Name = "Title"
+Title_13.Parent = Dropdown
+Title_13.Active = false
+Title_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_13.BackgroundTransparency = 1.000
+Title_13.Selectable = false
+Title_13.Size = UDim2.new(1, 0, 0, 20)
+Title_13.Font = Enum.Font.Ubuntu
+Title_13.Text = "UI Settings"
+Title_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_13.TextSize = 14.000
+Title_13.TextXAlignment = Enum.TextXAlignment.Left
 
 ExploitsTab.Name = "ExploitsTab"
 ExploitsTab.Parent = ContentContainer
@@ -1206,31 +1077,103 @@ ExploitsTab.Size = UDim2.new(1, 0, 1, 0)
 ExploitsTab.Visible = false
 ExploitsTab.ScrollBarThickness = 0
 
-UIPadding_26.Parent = ExploitsTab
-UIPadding_26.PaddingBottom = UDim.new(0, 1)
-UIPadding_26.PaddingLeft = UDim.new(0, 1)
-UIPadding_26.PaddingRight = UDim.new(0, 1)
-UIPadding_26.PaddingTop = UDim.new(0, 1)
+UIPadding_24.Parent = ExploitsTab
+UIPadding_24.PaddingBottom = UDim.new(0, 1)
+UIPadding_24.PaddingLeft = UDim.new(0, 1)
+UIPadding_24.PaddingRight = UDim.new(0, 1)
+UIPadding_24.PaddingTop = UDim.new(0, 1)
 
-UIListLayout_7.Parent = ExploitsTab
-UIListLayout_7.SortOrder = Enum.SortOrder.LayoutOrder
-UIListLayout_7.Padding = UDim.new(0, 6)
+UIListLayout_6.Parent = ExploitsTab
+UIListLayout_6.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_6.Padding = UDim.new(0, 6)
 
 IY.Name = "IY"
 IY.Parent = ExploitsTab
 IY.BackgroundColor3 = Color3.fromRGB(108, 0, 0)
 IY.Size = UDim2.new(1, 0, 0, 32)
 
-UICorner_35.CornerRadius = UDim.new(0, 4)
-UICorner_35.Parent = IY
+UICorner_30.CornerRadius = UDim.new(0, 4)
+UICorner_30.Parent = IY
 
-UIPadding_27.Parent = IY
+UIPadding_25.Parent = IY
+UIPadding_25.PaddingBottom = UDim.new(0, 6)
+UIPadding_25.PaddingLeft = UDim.new(0, 6)
+UIPadding_25.PaddingRight = UDim.new(0, 6)
+UIPadding_25.PaddingTop = UDim.new(0, 6)
+
+ImageLabel_14.Parent = IY
+ImageLabel_14.AnchorPoint = Vector2.new(1, 0)
+ImageLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_14.BackgroundTransparency = 1.000
+ImageLabel_14.Position = UDim2.new(1, 0, 0, 0)
+ImageLabel_14.Size = UDim2.new(0, 20, 0, 20)
+ImageLabel_14.Image = "rbxassetid://12576880013"
+
+Title_14.Name = "Title"
+Title_14.Parent = IY
+Title_14.Active = false
+Title_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_14.BackgroundTransparency = 1.000
+Title_14.Selectable = false
+Title_14.Size = UDim2.new(1, 0, 1, 0)
+Title_14.Font = Enum.Font.Ubuntu
+Title_14.Text = "Load Infinite Yield"
+Title_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_14.TextSize = 14.000
+Title_14.TextWrapped = true
+Title_14.TextXAlignment = Enum.TextXAlignment.Left
+
+CMDX.Name = "CMD-X"
+CMDX.Parent = ExploitsTab
+CMDX.BackgroundColor3 = Color3.fromRGB(2, 32, 45)
+CMDX.Size = UDim2.new(1, 0, 0, 32)
+
+UICorner_31.CornerRadius = UDim.new(0, 4)
+UICorner_31.Parent = CMDX
+
+UIPadding_26.Parent = CMDX
+UIPadding_26.PaddingBottom = UDim.new(0, 6)
+UIPadding_26.PaddingLeft = UDim.new(0, 6)
+UIPadding_26.PaddingRight = UDim.new(0, 6)
+UIPadding_26.PaddingTop = UDim.new(0, 6)
+
+ImageLabel_15.Parent = CMDX
+ImageLabel_15.AnchorPoint = Vector2.new(1, 0)
+ImageLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_15.BackgroundTransparency = 1.000
+ImageLabel_15.Position = UDim2.new(1, 0, 0, 0)
+ImageLabel_15.Size = UDim2.new(0, 20, 0, 20)
+ImageLabel_15.Image = "rbxassetid://12576880013"
+
+Title_15.Name = "Title"
+Title_15.Parent = CMDX
+Title_15.Active = false
+Title_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_15.BackgroundTransparency = 1.000
+Title_15.Selectable = false
+Title_15.Size = UDim2.new(1, 0, 1, 0)
+Title_15.Font = Enum.Font.Ubuntu
+Title_15.Text = "Load CMD-X"
+Title_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_15.TextSize = 14.000
+Title_15.TextWrapped = true
+Title_15.TextXAlignment = Enum.TextXAlignment.Left
+
+Dex.Name = "Dex"
+Dex.Parent = ExploitsTab
+Dex.BackgroundColor3 = Color3.fromRGB(43, 36, 2)
+Dex.Size = UDim2.new(1, 0, 0, 32)
+
+UICorner_32.CornerRadius = UDim.new(0, 4)
+UICorner_32.Parent = Dex
+
+UIPadding_27.Parent = Dex
 UIPadding_27.PaddingBottom = UDim.new(0, 6)
 UIPadding_27.PaddingLeft = UDim.new(0, 6)
 UIPadding_27.PaddingRight = UDim.new(0, 6)
 UIPadding_27.PaddingTop = UDim.new(0, 6)
 
-ImageLabel_16.Parent = IY
+ImageLabel_16.Parent = Dex
 ImageLabel_16.AnchorPoint = Vector2.new(1, 0)
 ImageLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel_16.BackgroundTransparency = 1.000
@@ -1239,90 +1182,18 @@ ImageLabel_16.Size = UDim2.new(0, 20, 0, 20)
 ImageLabel_16.Image = "rbxassetid://12576880013"
 
 Title_16.Name = "Title"
-Title_16.Parent = IY
+Title_16.Parent = Dex
 Title_16.Active = false
 Title_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Title_16.BackgroundTransparency = 1.000
 Title_16.Selectable = false
 Title_16.Size = UDim2.new(1, 0, 1, 0)
 Title_16.Font = Enum.Font.Ubuntu
-Title_16.Text = "Load Infinite Yield"
+Title_16.Text = "Load Dex"
 Title_16.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title_16.TextSize = 14.000
 Title_16.TextWrapped = true
 Title_16.TextXAlignment = Enum.TextXAlignment.Left
-
-CMDX.Name = "CMD-X"
-CMDX.Parent = ExploitsTab
-CMDX.BackgroundColor3 = Color3.fromRGB(2, 32, 45)
-CMDX.Size = UDim2.new(1, 0, 0, 32)
-
-UICorner_36.CornerRadius = UDim.new(0, 4)
-UICorner_36.Parent = CMDX
-
-UIPadding_28.Parent = CMDX
-UIPadding_28.PaddingBottom = UDim.new(0, 6)
-UIPadding_28.PaddingLeft = UDim.new(0, 6)
-UIPadding_28.PaddingRight = UDim.new(0, 6)
-UIPadding_28.PaddingTop = UDim.new(0, 6)
-
-ImageLabel_17.Parent = CMDX
-ImageLabel_17.AnchorPoint = Vector2.new(1, 0)
-ImageLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_17.BackgroundTransparency = 1.000
-ImageLabel_17.Position = UDim2.new(1, 0, 0, 0)
-ImageLabel_17.Size = UDim2.new(0, 20, 0, 20)
-ImageLabel_17.Image = "rbxassetid://12576880013"
-
-Title_17.Name = "Title"
-Title_17.Parent = CMDX
-Title_17.Active = false
-Title_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title_17.BackgroundTransparency = 1.000
-Title_17.Selectable = false
-Title_17.Size = UDim2.new(1, 0, 1, 0)
-Title_17.Font = Enum.Font.Ubuntu
-Title_17.Text = "Load CMD-X"
-Title_17.TextColor3 = Color3.fromRGB(255, 255, 255)
-Title_17.TextSize = 14.000
-Title_17.TextWrapped = true
-Title_17.TextXAlignment = Enum.TextXAlignment.Left
-
-Dex.Name = "Dex"
-Dex.Parent = ExploitsTab
-Dex.BackgroundColor3 = Color3.fromRGB(43, 36, 2)
-Dex.Size = UDim2.new(1, 0, 0, 32)
-
-UICorner_37.CornerRadius = UDim.new(0, 4)
-UICorner_37.Parent = Dex
-
-UIPadding_29.Parent = Dex
-UIPadding_29.PaddingBottom = UDim.new(0, 6)
-UIPadding_29.PaddingLeft = UDim.new(0, 6)
-UIPadding_29.PaddingRight = UDim.new(0, 6)
-UIPadding_29.PaddingTop = UDim.new(0, 6)
-
-ImageLabel_18.Parent = Dex
-ImageLabel_18.AnchorPoint = Vector2.new(1, 0)
-ImageLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_18.BackgroundTransparency = 1.000
-ImageLabel_18.Position = UDim2.new(1, 0, 0, 0)
-ImageLabel_18.Size = UDim2.new(0, 20, 0, 20)
-ImageLabel_18.Image = "rbxassetid://12576880013"
-
-Title_18.Name = "Title"
-Title_18.Parent = Dex
-Title_18.Active = false
-Title_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title_18.BackgroundTransparency = 1.000
-Title_18.Selectable = false
-Title_18.Size = UDim2.new(1, 0, 1, 0)
-Title_18.Font = Enum.Font.Ubuntu
-Title_18.Text = "Load Dex"
-Title_18.TextColor3 = Color3.fromRGB(255, 255, 255)
-Title_18.TextSize = 14.000
-Title_18.TextWrapped = true
-Title_18.TextXAlignment = Enum.TextXAlignment.Left
 
 GameTab.Name = "GameTab"
 GameTab.Parent = ContentContainer
@@ -1334,47 +1205,47 @@ GameTab.Size = UDim2.new(1, 0, 1, 0)
 GameTab.Visible = false
 GameTab.ScrollBarThickness = 0
 
-UIPadding_30.Parent = GameTab
-UIPadding_30.PaddingBottom = UDim.new(0, 1)
-UIPadding_30.PaddingLeft = UDim.new(0, 1)
-UIPadding_30.PaddingRight = UDim.new(0, 1)
-UIPadding_30.PaddingTop = UDim.new(0, 1)
+UIPadding_28.Parent = GameTab
+UIPadding_28.PaddingBottom = UDim.new(0, 1)
+UIPadding_28.PaddingLeft = UDim.new(0, 1)
+UIPadding_28.PaddingRight = UDim.new(0, 1)
+UIPadding_28.PaddingTop = UDim.new(0, 1)
 
-UIListLayout_8.Parent = GameTab
-UIListLayout_8.SortOrder = Enum.SortOrder.LayoutOrder
-UIListLayout_8.Padding = UDim.new(0, 6)
+UIListLayout_7.Parent = GameTab
+UIListLayout_7.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_7.Padding = UDim.new(0, 6)
 
 Error_2.Name = "Error"
 Error_2.Parent = GameTab
 Error_2.BackgroundColor3 = Color3.fromRGB(120, 0, 0)
 Error_2.Size = UDim2.new(1, 0, 0, 28)
 
-UICorner_38.CornerRadius = UDim.new(0, 4)
-UICorner_38.Parent = Error_2
+UICorner_33.CornerRadius = UDim.new(0, 4)
+UICorner_33.Parent = Error_2
 
-Title_19.Name = "Title"
-Title_19.Parent = Error_2
-Title_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title_19.BackgroundTransparency = 1.000
-Title_19.Size = UDim2.new(1, 0, 1, 0)
-Title_19.Font = Enum.Font.Ubuntu
-Title_19.Text = "This game is not supported!"
-Title_19.TextColor3 = Color3.fromRGB(255, 255, 255)
-Title_19.TextSize = 14.000
-Title_19.TextXAlignment = Enum.TextXAlignment.Left
+Title_17.Name = "Title"
+Title_17.Parent = Error_2
+Title_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_17.BackgroundTransparency = 1.000
+Title_17.Size = UDim2.new(1, 0, 1, 0)
+Title_17.Font = Enum.Font.Ubuntu
+Title_17.Text = "This game is not supported!"
+Title_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_17.TextSize = 14.000
+Title_17.TextXAlignment = Enum.TextXAlignment.Left
 
-UIPadding_31.Parent = Error_2
-UIPadding_31.PaddingBottom = UDim.new(0, 6)
-UIPadding_31.PaddingLeft = UDim.new(0, 26)
-UIPadding_31.PaddingRight = UDim.new(0, 6)
-UIPadding_31.PaddingTop = UDim.new(0, 8)
+UIPadding_29.Parent = Error_2
+UIPadding_29.PaddingBottom = UDim.new(0, 6)
+UIPadding_29.PaddingLeft = UDim.new(0, 26)
+UIPadding_29.PaddingRight = UDim.new(0, 6)
+UIPadding_29.PaddingTop = UDim.new(0, 8)
 
-ImageLabel_19.Parent = Error_2
-ImageLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_19.BackgroundTransparency = 1.000
-ImageLabel_19.Position = UDim2.new(0, -23, 0, -3)
-ImageLabel_19.Size = UDim2.new(0, 20, 0, 20)
-ImageLabel_19.Image = "http://www.roblox.com/asset/?id=6031071050"
+ImageLabel_17.Parent = Error_2
+ImageLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_17.BackgroundTransparency = 1.000
+ImageLabel_17.Position = UDim2.new(0, -23, 0, -3)
+ImageLabel_17.Size = UDim2.new(0, 20, 0, 20)
+ImageLabel_17.Image = "http://www.roblox.com/asset/?id=6031071050"
 
 DropShadowHolder.Name = "DropShadowHolder"
 DropShadowHolder.Parent = MainFrame
@@ -1397,32 +1268,40 @@ DropShadow.ImageTransparency = 0.500
 DropShadow.ScaleType = Enum.ScaleType.Slice
 DropShadow.SliceCenter = Rect.new(49, 49, 450, 450)
 
+NotificationHolder.Name = "NotificationHolder"
+NotificationHolder.Parent = MainUI
+NotificationHolder.AnchorPoint = Vector2.new(1, 0)
+NotificationHolder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NotificationHolder.BackgroundTransparency = 1.000
+NotificationHolder.Position = UDim2.new(1, 0, 0, 50)
+NotificationHolder.Size = UDim2.new(0, 300, 0, 100)
+
 -- Scripts:
 
-local function HSYNR_fake_script() -- TopBar.Draggable 
+local function EVUCFJY_fake_script() -- TopBar.Draggable 
 	local script = Instance.new('LocalScript', TopBar)
 
 	local UserInputService = game:GetService("UserInputService")
-
+	
 	local gui = script.Parent
 	local mainframe = script.Parent.Parent
-
+	
 	local dragging
 	local dragInput
 	local dragStart
 	local startPos
-
+	
 	local function update(input)
 		local delta = input.Position - dragStart
 		mainframe.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
 	end
-
+	
 	gui.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
 			dragging = true
 			dragStart = input.Position
 			startPos = mainframe.Position
-
+	
 			input.Changed:Connect(function()
 				if input.UserInputState == Enum.UserInputState.End then
 					dragging = false
@@ -1430,21 +1309,21 @@ local function HSYNR_fake_script() -- TopBar.Draggable
 			end)
 		end
 	end)
-
+	
 	gui.InputChanged:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
 			dragInput = input
 		end
 	end)
-
+	
 	UserInputService.InputChanged:Connect(function(input)
 		if input == dragInput and dragging then
 			update(input)
 		end
 	end)
 end
-coroutine.wrap(HSYNR_fake_script)()
-local function CWLQ_fake_script() -- Minimize.Minimize 
+coroutine.wrap(EVUCFJY_fake_script)()
+local function THZP_fake_script() -- Minimize.Minimize 
 	local script = Instance.new('LocalScript', Minimize)
 
 	local button = script.Parent
@@ -1456,7 +1335,7 @@ local function CWLQ_fake_script() -- Minimize.Minimize
 	local debounce = false
 	local imgid1 = "rbxassetid://7072719185"
 	local imgid2 = "rbxassetid://7072718726"
-
+	
 	local function HideAll()
 		ui.ContentContainer.Visible = false
 		ui.DropShadowHolder.Size = UDim2.new(1,0,1,-270)
@@ -1466,7 +1345,7 @@ local function CWLQ_fake_script() -- Minimize.Minimize
 		script.Parent.Image = imgid2
 		ui.BackgroundTransparency = 1
 	end
-
+	
 	local function ShowAll()
 		ui.ContentContainer.Visible = true
 		ui.DropShadowHolder.Size = UDim2.new(1,0,1,0)
@@ -1476,7 +1355,7 @@ local function CWLQ_fake_script() -- Minimize.Minimize
 		script.Parent.Image = imgid1
 		ui.BackgroundTransparency = 0
 	end
-
+	
 	button.MouseButton1Click:Connect(function()
 		if debounce == false then
 			HideAll()
@@ -1487,8 +1366,8 @@ local function CWLQ_fake_script() -- Minimize.Minimize
 		end
 	end)
 end
-coroutine.wrap(CWLQ_fake_script)()
-local function TENTMQU_fake_script() -- Home.Toggle 
+coroutine.wrap(THZP_fake_script)()
+local function TXNII_fake_script() -- Home.Toggle 
 	local script = Instance.new('LocalScript', Home)
 
 	local button = script.Parent
@@ -1498,7 +1377,7 @@ local function TENTMQU_fake_script() -- Home.Toggle
 	local exploitsTab = tabs.ExploitsTab
 	local gameTab = tabs.GameTab
 	local configTab = tabs.ConfigTab
-
+	
 	local function HideAll()
 		homeTab.Visible = false
 		toolsTab.Visible = false
@@ -1506,14 +1385,14 @@ local function TENTMQU_fake_script() -- Home.Toggle
 		gameTab.Visible = false
 		configTab.Visible = false
 	end
-
+	
 	button.MouseButton1Click:Connect(function()
 		HideAll()
 		homeTab.Visible = true
 	end)
 end
-coroutine.wrap(TENTMQU_fake_script)()
-local function JACKEBQ_fake_script() -- GameXD.Toggle 
+coroutine.wrap(TXNII_fake_script)()
+local function IVLF_fake_script() -- GameXD.Toggle 
 	local script = Instance.new('LocalScript', GameXD)
 
 	local button = script.Parent
@@ -1523,7 +1402,7 @@ local function JACKEBQ_fake_script() -- GameXD.Toggle
 	local exploitsTab = tabs.ExploitsTab
 	local gameTab = tabs.GameTab
 	local configTab = tabs.ConfigTab
-
+	
 	local function HideAll()
 		homeTab.Visible = false
 		toolsTab.Visible = false
@@ -1531,14 +1410,14 @@ local function JACKEBQ_fake_script() -- GameXD.Toggle
 		gameTab.Visible = false
 		configTab.Visible = false
 	end
-
+	
 	button.MouseButton1Click:Connect(function()
 		HideAll()
 		gameTab.Visible = true
 	end)
 end
-coroutine.wrap(JACKEBQ_fake_script)()
-local function IJIEL_fake_script() -- Utilities.Toggle 
+coroutine.wrap(IVLF_fake_script)()
+local function FTNW_fake_script() -- Utilities.Toggle 
 	local script = Instance.new('LocalScript', Utilities)
 
 	local button = script.Parent
@@ -1548,7 +1427,7 @@ local function IJIEL_fake_script() -- Utilities.Toggle
 	local exploitsTab = tabs.ExploitsTab
 	local gameTab = tabs.GameTab
 	local configTab = tabs.ConfigTab
-
+	
 	local function HideAll()
 		homeTab.Visible = false
 		toolsTab.Visible = false
@@ -1556,14 +1435,14 @@ local function IJIEL_fake_script() -- Utilities.Toggle
 		gameTab.Visible = false
 		configTab.Visible = false
 	end
-
+	
 	button.MouseButton1Click:Connect(function()
 		HideAll()
 		toolsTab.Visible = true
 	end)
 end
-coroutine.wrap(IJIEL_fake_script)()
-local function VGDOP_fake_script() -- OtherExploits.Toggle 
+coroutine.wrap(FTNW_fake_script)()
+local function IRIFP_fake_script() -- OtherExploits.Toggle 
 	local script = Instance.new('LocalScript', OtherExploits)
 
 	local button = script.Parent
@@ -1573,7 +1452,7 @@ local function VGDOP_fake_script() -- OtherExploits.Toggle
 	local exploitsTab = tabs.ExploitsTab
 	local gameTab = tabs.GameTab
 	local configTab = tabs.ConfigTab
-
+	
 	local function HideAll()
 		homeTab.Visible = false
 		toolsTab.Visible = false
@@ -1581,14 +1460,14 @@ local function VGDOP_fake_script() -- OtherExploits.Toggle
 		gameTab.Visible = false
 		configTab.Visible = false
 	end
-
+	
 	button.MouseButton1Click:Connect(function()
 		HideAll()
 		exploitsTab.Visible = true
 	end)
 end
-coroutine.wrap(VGDOP_fake_script)()
-local function RKOD_fake_script() -- Config.Toggle 
+coroutine.wrap(IRIFP_fake_script)()
+local function VHPBDTS_fake_script() -- Config.Toggle 
 	local script = Instance.new('LocalScript', Config)
 
 	local button = script.Parent
@@ -1598,7 +1477,7 @@ local function RKOD_fake_script() -- Config.Toggle
 	local exploitsTab = tabs.ExploitsTab
 	local gameTab = tabs.GameTab
 	local configTab = tabs.ConfigTab
-
+	
 	local function HideAll()
 		homeTab.Visible = false
 		toolsTab.Visible = false
@@ -1606,21 +1485,21 @@ local function RKOD_fake_script() -- Config.Toggle
 		gameTab.Visible = false
 		configTab.Visible = false
 	end
-
+	
 	button.MouseButton1Click:Connect(function()
 		HideAll()
 		configTab.Visible = true
 	end)
 end
-coroutine.wrap(RKOD_fake_script)()
-local function NFZG_fake_script() -- Draggable.LocalScript 
+coroutine.wrap(VHPBDTS_fake_script)()
+local function DACPYR_fake_script() -- Draggable.LocalScript 
 	local script = Instance.new('LocalScript', Draggable)
 
 	local UserInputService = game:GetService("UserInputService")
 	local TextButton = script.Parent -- Replace with the path to your TextButton object
 	local Frame = TextButton.Parent
 	local PlayerHumanoid = game.Players.LocalPlayer.Character:WaitForChild("Humanoid")
-
+	
 	local function updateValue(input)
 		local position = input.Position.X - Frame.AbsolutePosition.X
 		local size = Frame.AbsoluteSize.X
@@ -1633,7 +1512,7 @@ local function NFZG_fake_script() -- Draggable.LocalScript
 		script.Parent.Parent.Parent.Value.Text = tostring(newValue)
 		PlayerHumanoid.WalkSpeed = newValue
 	end
-
+	
 	TextButton.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 then
 			updateValue(input)
@@ -1651,17 +1530,17 @@ local function NFZG_fake_script() -- Draggable.LocalScript
 			end)
 		end
 	end)
-
+	
 end
-coroutine.wrap(NFZG_fake_script)()
-local function SHJKS_fake_script() -- Checkmark.LocalScript 
+coroutine.wrap(DACPYR_fake_script)()
+local function OPQE_fake_script() -- Checkmark.LocalScript 
 	local script = Instance.new('LocalScript', Checkmark)
 
 	local button = script.Parent
 	local chkmarkholder = script.Parent.Parent
 	local debounce = false
 	local id = "rbxassetid://12577604902"
-
+	
 	button.MouseButton1Click:Connect(function()
 		if debounce == false then
 			script.Parent.Image = 0
@@ -1674,46 +1553,25 @@ local function SHJKS_fake_script() -- Checkmark.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SHJKS_fake_script)()
-local function LRNFII_fake_script() -- Title_8.Toggle 
+coroutine.wrap(OPQE_fake_script)()
+local function SUGR_fake_script() -- Title_8.Fly 
 	local script = Instance.new('LocalScript', Title_8)
-
-	local frame = script.Parent.Parent
-	local holder = frame.OptionHolder
-	local button = script.Parent
-	local debounce = false
-
-	button.MouseButton1Click:Connect(function()
-		if debounce == false then
-			frame.Size = UDim2.new(1,0,0,130)
-			holder.Visible = true
-			debounce = true
-		elseif debounce == true then
-			frame.Size = UDim2.new(1,0,0,30)
-			holder.Visible = false
-			debounce = false
-		end
-	end)
-end
-coroutine.wrap(LRNFII_fake_script)()
-local function DWNLQ_fake_script() -- Title_10.Fly 
-	local script = Instance.new('LocalScript', Title_10)
 
 	speeds = 1
 	local onof = script.Parent
-
+	
 	local speaker = game:GetService("Players").LocalPlayer
-
+	
 	local chr = game.Players.LocalPlayer.Character
 	local hum = chr and chr:FindFirstChildWhichIsA("Humanoid")
-
+	
 	nowe = false
-
+	
 	onof.MouseButton1Down:connect(function()
-
+	
 		if nowe == true then
 			nowe = false
-
+	
 			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Climbing,true)
 			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.FallingDown,true)
 			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Flying,true)
@@ -1732,15 +1590,15 @@ local function DWNLQ_fake_script() -- Title_10.Fly
 			speaker.Character.Humanoid:ChangeState(Enum.HumanoidStateType.RunningNoPhysics)
 		else 
 			nowe = true
-
-
-
+	
+	
+	
 			for i = 1, speeds do
 				spawn(function()
-
+	
 					local hb = game:GetService("RunService").Heartbeat	
-
-
+	
+	
 					tpwalking = true
 					local chr = game.Players.LocalPlayer.Character
 					local hum = chr and chr:FindFirstChildWhichIsA("Humanoid")
@@ -1749,13 +1607,13 @@ local function DWNLQ_fake_script() -- Title_10.Fly
 							chr:TranslateBy(hum.MoveDirection)
 						end
 					end
-
+	
 				end)
 			end
 			game.Players.LocalPlayer.Character.Animate.Disabled = true
 			local Char = game.Players.LocalPlayer.Character
 			local Hum = Char:FindFirstChildOfClass("Humanoid") or Char:FindFirstChildOfClass("AnimationController")
-
+	
 			for i,v in next, Hum:GetPlayingAnimationTracks() do
 				v:AdjustSpeed(0)
 			end
@@ -1776,14 +1634,14 @@ local function DWNLQ_fake_script() -- Title_10.Fly
 			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Swimming,false)
 			speaker.Character.Humanoid:ChangeState(Enum.HumanoidStateType.Swimming)
 		end
-
-
-
-
+	
+	
+	
+	
 		if game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid").RigType == Enum.HumanoidRigType.R6 then
-
-
-
+	
+	
+	
 			local plr = game.Players.LocalPlayer
 			local torso = plr.Character.Torso
 			local flying = true
@@ -1792,8 +1650,8 @@ local function DWNLQ_fake_script() -- Title_10.Fly
 			local lastctrl = {f = 0, b = 0, l = 0, r = 0}
 			local maxspeed = 50
 			local speed = 0
-
-
+	
+	
 			local bg = Instance.new("BodyGyro", torso)
 			bg.P = 9e4
 			bg.maxTorque = Vector3.new(9e9, 9e9, 9e9)
@@ -1806,7 +1664,7 @@ local function DWNLQ_fake_script() -- Title_10.Fly
 			end
 			while nowe == true or game:GetService("Players").LocalPlayer.Character.Humanoid.Health == 0 do
 				game:GetService("RunService").RenderStepped:Wait()
-
+	
 				if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
 					speed = speed+.5+(speed/maxspeed)
 					if speed > maxspeed then
@@ -1837,10 +1695,10 @@ local function DWNLQ_fake_script() -- Title_10.Fly
 			plr.Character.Humanoid.PlatformStand = false
 			game.Players.LocalPlayer.Character.Animate.Disabled = false
 			tpwalking = false
-
-
-
-
+	
+	
+	
+	
 		else
 			local plr = game.Players.LocalPlayer
 			local UpperTorso = plr.Character.UpperTorso
@@ -1850,8 +1708,8 @@ local function DWNLQ_fake_script() -- Title_10.Fly
 			local lastctrl = {f = 0, b = 0, l = 0, r = 0}
 			local maxspeed = 50
 			local speed = 0
-
-
+	
+	
 			local bg = Instance.new("BodyGyro", UpperTorso)
 			bg.P = 9e4
 			bg.maxTorque = Vector3.new(9e9, 9e9, 9e9)
@@ -1864,7 +1722,7 @@ local function DWNLQ_fake_script() -- Title_10.Fly
 			end
 			while nowe == true or game:GetService("Players").LocalPlayer.Character.Humanoid.Health == 0 do
 				wait()
-
+	
 				if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
 					speed = speed+.5+(speed/maxspeed)
 					if speed > maxspeed then
@@ -1884,7 +1742,7 @@ local function DWNLQ_fake_script() -- Title_10.Fly
 				else
 					bv.velocity = Vector3.new(0,0,0)
 				end
-
+	
 				bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0)
 			end
 			ctrl = {f = 0, b = 0, l = 0, r = 0}
@@ -1895,15 +1753,15 @@ local function DWNLQ_fake_script() -- Title_10.Fly
 			plr.Character.Humanoid.PlatformStand = false
 			game.Players.LocalPlayer.Character.Animate.Disabled = false
 			tpwalking = false
-
-
-
+	
+	
+	
 		end
 	end)
 end
-coroutine.wrap(DWNLQ_fake_script)()
-local function GLYHFCE_fake_script() -- Title_11.Noclip 
-	local script = Instance.new('LocalScript', Title_11)
+coroutine.wrap(SUGR_fake_script)()
+local function URRVPU_fake_script() -- Title_9.Noclip 
+	local script = Instance.new('LocalScript', Title_9)
 
 	local Workspace = game:GetService("Workspace")
 	local CoreGui = game:GetService("CoreGui")
@@ -1912,8 +1770,8 @@ local function GLYHFCE_fake_script() -- Title_11.Noclip
 	local Clipon = false
 	local Toggle = script.Parent
 	local debounce = false
-
-
+	
+	
 	Toggle.MouseButton1Click:connect(function()
 		if debounce == false then
 			Clipon = true
@@ -1936,9 +1794,9 @@ local function GLYHFCE_fake_script() -- Title_11.Noclip
 		end
 	end)
 end
-coroutine.wrap(GLYHFCE_fake_script)()
-local function XAYSTIT_fake_script() -- Title_12.InfJump 
-	local script = Instance.new('LocalScript', Title_12)
+coroutine.wrap(URRVPU_fake_script)()
+local function YRBONE_fake_script() -- Title_10.InfJump 
+	local script = Instance.new('LocalScript', Title_10)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local CoreGui = game:GetService("StarterGui")
@@ -1950,15 +1808,15 @@ local function XAYSTIT_fake_script() -- Title_12.InfJump
 		})
 	end)
 end
-coroutine.wrap(XAYSTIT_fake_script)()
-local function TUHX_fake_script() -- Slider_2.Slider 
+coroutine.wrap(YRBONE_fake_script)()
+local function ZIPTLR_fake_script() -- Slider_2.Slider 
 	local script = Instance.new('LocalScript', Slider_2)
 
 	local UserInputService = game:GetService("UserInputService")
 	local TextButton = script.Parent -- Replace with the path to your TextButton object
 	local Frame = TextButton.Parent
 	local PlayerHumanoid = game.Players.LocalPlayer.Character:WaitForChild("Humanoid")
-
+	
 	local function updateValue(input)
 		local position = input.Position.X - Frame.AbsolutePosition.X
 		local size = Frame.AbsoluteSize.X
@@ -1972,7 +1830,7 @@ local function TUHX_fake_script() -- Slider_2.Slider
 		PlayerHumanoid.UseJumpPower = true
 		PlayerHumanoid.JumpPower = newValue
 	end
-
+	
 	TextButton.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 then
 			updateValue(input)
@@ -1990,17 +1848,17 @@ local function TUHX_fake_script() -- Slider_2.Slider
 			end)
 		end
 	end)
-
+	
 end
-coroutine.wrap(TUHX_fake_script)()
-local function PEZVDS_fake_script() -- Slider_3.Slider 
+coroutine.wrap(ZIPTLR_fake_script)()
+local function KZHPLYA_fake_script() -- Slider_3.Slider 
 	local script = Instance.new('LocalScript', Slider_3)
 
 	local UserInputService = game:GetService("UserInputService")
 	local TextButton = script.Parent -- Replace with the path to your TextButton object
 	local Frame = TextButton.Parent
 	local PlayerHumanoid = game.Players.LocalPlayer.Character:WaitForChild("Humanoid")
-
+	
 	local function updateValue(input)
 		local position = input.Position.X - Frame.AbsolutePosition.X
 		local size = Frame.AbsoluteSize.X
@@ -2013,7 +1871,7 @@ local function PEZVDS_fake_script() -- Slider_3.Slider
 		script.Parent.Parent.Parent.Value.Text = tostring(newValue)
 		PlayerHumanoid.WalkSpeed = newValue
 	end
-
+	
 	TextButton.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 then
 			updateValue(input)
@@ -2031,10 +1889,10 @@ local function PEZVDS_fake_script() -- Slider_3.Slider
 			end)
 		end
 	end)
-
+	
 end
-coroutine.wrap(PEZVDS_fake_script)()
-local function HZKUR_fake_script() -- HomeTab.Player 
+coroutine.wrap(KZHPLYA_fake_script)()
+local function JAOQM_fake_script() -- HomeTab.Player 
 	local script = Instance.new('LocalScript', HomeTab)
 
 	local frame = script.Parent
@@ -2043,42 +1901,42 @@ local function HZKUR_fake_script() -- HomeTab.Player
 	local thumbType = Enum.ThumbnailType.AvatarBust
 	local thumbSize = Enum.ThumbnailSize.Size420x420
 	local content, isReady = game.Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
-
+	
 	frame.PlayerImage.Image = content
 	frame.Label.Text = "Welcome Back, ".. player.Name
 end
-coroutine.wrap(HZKUR_fake_script)()
-local function AXEF_fake_script() -- ReloadGUI.Reload 
+coroutine.wrap(JAOQM_fake_script)()
+local function EKXPZ_fake_script() -- ReloadGUI.Reload 
 	local script = Instance.new('LocalScript', ReloadGUI)
 
 	local UI = script.Parent.Parent.Parent.Parent.Parent.Parent.Parent
 	local Button = script.Parent
-
+	
 	Button.MouseButton1Click:Connect(function()
 		UI:Destroy()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/BenjaKpokYT/Hackblox/main/Hackblox.lua'))()
 	end)
 end
-coroutine.wrap(AXEF_fake_script)()
-local function ULQEP_fake_script() -- CloseGUI.Close 
+coroutine.wrap(EKXPZ_fake_script)()
+local function QLEEV_fake_script() -- CloseGUI.Close 
 	local script = Instance.new('LocalScript', CloseGUI)
 
 	local UI = script.Parent.Parent.Parent.Parent.Parent.Parent.Parent
 	local Button = script.Parent
-
+	
 	Button.MouseButton1Click:Connect(function()
 		UI:Destroy()
 	end)
 end
-coroutine.wrap(ULQEP_fake_script)()
-local function MFQTD_fake_script() -- Title_15.Toggle 
-	local script = Instance.new('LocalScript', Title_15)
+coroutine.wrap(QLEEV_fake_script)()
+local function RMMRK_fake_script() -- Title_13.Toggle 
+	local script = Instance.new('LocalScript', Title_13)
 
 	local frame = script.Parent.Parent
 	local holder = frame.OptionHolder
 	local button = script.Parent
 	local debounce = false
-
+	
 	button.MouseButton1Click:Connect(function()
 		if debounce == false then
 			frame.Size = UDim2.new(1,0,0,95)
@@ -2091,41 +1949,41 @@ local function MFQTD_fake_script() -- Title_15.Toggle
 		end
 	end)
 end
-coroutine.wrap(MFQTD_fake_script)()
-local function SEWRJ_fake_script() -- Title_16.LoadIY 
-	local script = Instance.new('LocalScript', Title_16)
+coroutine.wrap(RMMRK_fake_script)()
+local function WQXUE_fake_script() -- Title_14.LoadIY 
+	local script = Instance.new('LocalScript', Title_14)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
-
+	
 end
-coroutine.wrap(SEWRJ_fake_script)()
-local function GWYVF_fake_script() -- Title_17.LoadCMD-X 
-	local script = Instance.new('LocalScript', Title_17)
+coroutine.wrap(WQXUE_fake_script)()
+local function NWSR_fake_script() -- Title_15.LoadCMD-X 
+	local script = Instance.new('LocalScript', Title_15)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
 	end)
 end
-coroutine.wrap(GWYVF_fake_script)()
-local function SKZO_fake_script() -- Title_18.LoadDex 
-	local script = Instance.new('LocalScript', Title_18)
+coroutine.wrap(NWSR_fake_script)()
+local function MKFZSE_fake_script() -- Title_16.LoadDex 
+	local script = Instance.new('LocalScript', Title_16)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/DomainX/main/source',true))()
 	end)
 end
-coroutine.wrap(SKZO_fake_script)()
-local function TNJKUPG_fake_script() -- MainFrame.Toggle 
+coroutine.wrap(MKFZSE_fake_script)()
+local function RFZZG_fake_script() -- MainFrame.Toggle 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local Frame = script.Parent.Parent.MainFrame
 	local Keycode = Enum.KeyCode.RightControl
-
+	
 	local UIS = game:GetService("UserInputService")
 	local db = false
-
+	
 	UIS.InputBegan:Connect(function(key)
 		if key.KeyCode == Keycode then
 			if UIS:GetFocusedTextBox() == nil then
@@ -2139,10 +1997,10 @@ local function TNJKUPG_fake_script() -- MainFrame.Toggle
 			end
 		end
 	end)
-
+	
 end
-coroutine.wrap(TNJKUPG_fake_script)()
-local function OTEKQF_fake_script() -- MainUI.Load 
+coroutine.wrap(RFZZG_fake_script)()
+local function RLWC_fake_script() -- MainUI.Load 
 	local script = Instance.new('LocalScript', MainUI)
 
 	local CoreGui = game:GetService("StarterGui")
@@ -2157,4 +2015,4 @@ local function OTEKQF_fake_script() -- MainUI.Load
 	})
 	script:Destroy()
 end
-coroutine.wrap(OTEKQF_fake_script)()
+coroutine.wrap(RLWC_fake_script)()
