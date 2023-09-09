@@ -1,27 +1,8 @@
---[[
-
-HHHHHHHHH     HHHHHHHHH                                     kkkkkkkk          b::::::b            lllllll                                    
-H:::::::H     H:::::::H                                     k::::::k          b::::::b            l:::::l                                    
-H:::::::H     H:::::::H                                     k::::::k          b::::::b            l:::::l                                    
-HH::::::H     H::::::HH                                     k::::::k           b:::::b            l:::::l                                    
-  H:::::H     H:::::H    aaaaaaaaaaaaa      cccccccccccccccc k:::::k    kkkkkkkb:::::bbbbbbbbb     l::::l    ooooooooooo xxxxxxx      xxxxxxx
-  H:::::H     H:::::H    a::::::::::::a   cc:::::::::::::::c k:::::k   k:::::k b::::::::::::::bb   l::::l  oo:::::::::::oox:::::x    x:::::x 
-  H::::::HHHHH::::::H    aaaaaaaaa:::::a c:::::::::::::::::c k:::::k  k:::::k  b::::::::::::::::b  l::::l o:::::::::::::::ox:::::x  x:::::x  
-  H:::::::::::::::::H             a::::ac:::::::cccccc:::::c k:::::k k:::::k   b:::::bbbbb:::::::b l::::l o:::::ooooo:::::o x:::::xx:::::x   
-  H:::::::::::::::::H      aaaaaaa:::::ac::::::c     ccccccc k::::::k:::::k    b:::::b    b::::::b l::::l o::::o     o::::o  x::::::::::x    
-  H::::::HHHHH::::::H    aa::::::::::::ac:::::c              k:::::::::::k     b:::::b     b:::::b l::::l o::::o     o::::o   x::::::::x     
-  H:::::H     H:::::H   a::::aaaa::::::ac:::::c              k:::::::::::k     b:::::b     b:::::b l::::l o::::o     o::::o   x::::::::x     
-  H:::::H     H:::::H  a::::a    a:::::ac::::::c     ccccccc k::::::k:::::k    b:::::b     b:::::b l::::l o::::o     o::::o  x::::::::::x    
-HH::::::H     H::::::HHa::::a    a:::::ac:::::::cccccc:::::ck::::::k k:::::k   b:::::bbbbbb::::::bl::::::lo:::::ooooo:::::o x:::::xx:::::x   
-H:::::::H     H:::::::Ha:::::aaaa::::::a c:::::::::::::::::ck::::::k  k:::::k  b::::::::::::::::b l::::::lo:::::::::::::::ox:::::x  x:::::x  
-H:::::::H     H:::::::H a::::::::::aa:::a cc:::::::::::::::ck::::::k   k:::::k b:::::::::::::::b  l::::::l oo:::::::::::oox:::::x    x:::::x 
-HHHHHHHHH     HHHHHHHHH  aaaaaaaaaa  aaaa   cccccccccccccccckkkkkkkk    kkkkkkkbbbbbbbbbbbbbbbb   llllllll   ooooooooooo xxxxxxx      xxxxxxx    
-
-]]
+--Hackblox Loader v0.9
 
 -- Instances:
 
-local MainUI = Instance.new("ScreenGui")
+local HackbloxUI = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local TopBar = Instance.new("Frame")
@@ -33,8 +14,6 @@ local Title = Instance.new("TextLabel")
 local UIPadding = Instance.new("UIPadding")
 local Navigation = Instance.new("Frame")
 local UICorner_3 = Instance.new("UICorner")
-local Hide = Instance.new("Frame")
-local Hide2 = Instance.new("Frame")
 local ButtonHolder = Instance.new("Frame")
 local UIPadding_2 = Instance.new("UIPadding")
 local Home = Instance.new("TextButton")
@@ -140,13 +119,12 @@ local PlayerImage = Instance.new("ImageLabel")
 local Label = Instance.new("TextLabel")
 local ConfigTab = Instance.new("ScrollingFrame")
 local UIPadding_22 = Instance.new("UIPadding")
-local UIListLayout_4 = Instance.new("UIListLayout")
 local Dropdown = Instance.new("Frame")
 local UICorner_27 = Instance.new("UICorner")
 local UIPadding_23 = Instance.new("UIPadding")
 local ImageLabel_13 = Instance.new("ImageLabel")
 local OptionHolder = Instance.new("Frame")
-local UIListLayout_5 = Instance.new("UIListLayout")
+local UIListLayout_4 = Instance.new("UIListLayout")
 local ReloadGUI = Instance.new("TextButton")
 local UICorner_28 = Instance.new("UICorner")
 local CloseGUI = Instance.new("TextButton")
@@ -154,7 +132,7 @@ local UICorner_29 = Instance.new("UICorner")
 local Title_13 = Instance.new("TextButton")
 local ExploitsTab = Instance.new("ScrollingFrame")
 local UIPadding_24 = Instance.new("UIPadding")
-local UIListLayout_6 = Instance.new("UIListLayout")
+local UIListLayout_5 = Instance.new("UIListLayout")
 local IY = Instance.new("Frame")
 local UICorner_30 = Instance.new("UICorner")
 local UIPadding_25 = Instance.new("UIPadding")
@@ -172,7 +150,7 @@ local ImageLabel_16 = Instance.new("ImageLabel")
 local Title_16 = Instance.new("TextButton")
 local GameTab = Instance.new("ScrollingFrame")
 local UIPadding_28 = Instance.new("UIPadding")
-local UIListLayout_7 = Instance.new("UIListLayout")
+local UIListLayout_6 = Instance.new("UIListLayout")
 local Error_2 = Instance.new("Frame")
 local UICorner_33 = Instance.new("UICorner")
 local Title_17 = Instance.new("TextLabel")
@@ -184,27 +162,26 @@ local NotificationHolder = Instance.new("Frame")
 
 --Properties:
 
-MainUI.Name = "MainUI"
-MainUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-MainUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-MainUI.ResetOnSpawn = false
+HackbloxUI.Name = "HackbloxUI"
+HackbloxUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+HackbloxUI.ResetOnSpawn = false
 
 MainFrame.Name = "MainFrame"
-MainFrame.Parent = MainUI
+MainFrame.Parent = HackbloxUI
 MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
 MainFrame.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
 MainFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
 MainFrame.Size = UDim2.new(0, 400, 0, 300)
 
-UICorner.CornerRadius = UDim.new(0, 6)
+UICorner.CornerRadius = UDim.new(0, 10)
 UICorner.Parent = MainFrame
 
 TopBar.Name = "TopBar"
 TopBar.Parent = MainFrame
-TopBar.BackgroundColor3 = Color3.fromRGB(9, 200, 100)
+TopBar.BackgroundColor3 = Color3.fromRGB(200, 40, 40)
 TopBar.Size = UDim2.new(1, 0, 0, 30)
 
-UICorner_2.CornerRadius = UDim.new(0, 6)
+UICorner_2.CornerRadius = UDim.new(0, 10)
 UICorner_2.Parent = TopBar
 
 Line.Name = "Line"
@@ -218,10 +195,10 @@ Line.Size = UDim2.new(1, 0, 0, 1)
 Extension.Name = "Extension"
 Extension.Parent = TopBar
 Extension.AnchorPoint = Vector2.new(0.5, 1)
-Extension.BackgroundColor3 = Color3.fromRGB(9, 200, 100)
+Extension.BackgroundColor3 = Color3.fromRGB(200, 40, 40)
 Extension.BorderSizePixel = 0
 Extension.Position = UDim2.new(0.5, 0, 1, 0)
-Extension.Size = UDim2.new(1, 0, 0, 5)
+Extension.Size = UDim2.new(1, 0, 0, 8)
 
 Minimize.Name = "Minimize"
 Minimize.Parent = TopBar
@@ -239,9 +216,10 @@ Title.Parent = TopBar
 Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Title.BackgroundTransparency = 1.000
 Title.Size = UDim2.new(0.5, 0, 1, 0)
-Title.Font = Enum.Font.Gotham
-Title.Text = "Hackblox"
+Title.Font = Enum.Font.FredokaOne
+Title.Text = "Hackblox - By BenjaKpok"
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
 Title.TextSize = 14.000
 Title.TextWrapped = true
 Title.TextXAlignment = Enum.TextXAlignment.Left
@@ -252,26 +230,12 @@ UIPadding.PaddingTop = UDim.new(0, 1)
 
 Navigation.Name = "Navigation"
 Navigation.Parent = MainFrame
-Navigation.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Navigation.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 Navigation.Position = UDim2.new(0, 0, 0, 30)
-Navigation.Size = UDim2.new(0, 120, 1, -30)
+Navigation.Size = UDim2.new(0, 125, 1, -30)
 
 UICorner_3.CornerRadius = UDim.new(0, 6)
 UICorner_3.Parent = Navigation
-
-Hide.Name = "Hide"
-Hide.Parent = Navigation
-Hide.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-Hide.BorderSizePixel = 0
-Hide.Size = UDim2.new(1, 0, 0, 10)
-
-Hide2.Name = "Hide2"
-Hide2.Parent = Navigation
-Hide2.AnchorPoint = Vector2.new(1, 0)
-Hide2.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-Hide2.BorderSizePixel = 0
-Hide2.Position = UDim2.new(1, 0, 0, 0)
-Hide2.Size = UDim2.new(0, 10, 1, 0)
 
 ButtonHolder.Name = "ButtonHolder"
 ButtonHolder.Parent = Navigation
@@ -286,10 +250,10 @@ UIPadding_2.PaddingTop = UDim.new(0, 8)
 Home.Name = "Home"
 Home.Parent = ButtonHolder
 Home.Active = false
-Home.BackgroundColor3 = Color3.fromRGB(0, 200, 100)
+Home.BackgroundColor3 = Color3.fromRGB(200, 40, 40)
 Home.Selectable = false
 Home.Size = UDim2.new(1, 0, 0, 24)
-Home.Font = Enum.Font.Ubuntu
+Home.Font = Enum.Font.Unknown
 Home.Text = "Home"
 Home.TextColor3 = Color3.fromRGB(255, 255, 255)
 Home.TextSize = 14.000
@@ -318,10 +282,10 @@ UIListLayout.Padding = UDim.new(0, 8)
 GameXD.Name = "GameXD"
 GameXD.Parent = ButtonHolder
 GameXD.Active = false
-GameXD.BackgroundColor3 = Color3.fromRGB(0, 200, 100)
+GameXD.BackgroundColor3 = Color3.fromRGB(200, 40, 40)
 GameXD.Selectable = false
 GameXD.Size = UDim2.new(1, 0, 0, 24)
-GameXD.Font = Enum.Font.Ubuntu
+GameXD.Font = Enum.Font.Unknown
 GameXD.Text = "Game"
 GameXD.TextColor3 = Color3.fromRGB(255, 255, 255)
 GameXD.TextSize = 14.000
@@ -346,10 +310,10 @@ UICorner_5.Parent = GameXD
 Utilities.Name = "Utilities"
 Utilities.Parent = ButtonHolder
 Utilities.Active = false
-Utilities.BackgroundColor3 = Color3.fromRGB(0, 200, 100)
+Utilities.BackgroundColor3 = Color3.fromRGB(200, 40, 40)
 Utilities.Selectable = false
 Utilities.Size = UDim2.new(1, 0, 0, 24)
-Utilities.Font = Enum.Font.Ubuntu
+Utilities.Font = Enum.Font.Unknown
 Utilities.Text = "Tools"
 Utilities.TextColor3 = Color3.fromRGB(255, 255, 255)
 Utilities.TextSize = 14.000
@@ -374,13 +338,15 @@ UICorner_6.Parent = Utilities
 OtherExploits.Name = "OtherExploits"
 OtherExploits.Parent = ButtonHolder
 OtherExploits.Active = false
-OtherExploits.BackgroundColor3 = Color3.fromRGB(0, 200, 100)
+OtherExploits.BackgroundColor3 = Color3.fromRGB(200, 40, 40)
 OtherExploits.Selectable = false
 OtherExploits.Size = UDim2.new(1, 0, 0, 24)
-OtherExploits.Font = Enum.Font.Ubuntu
+OtherExploits.Font = Enum.Font.Unknown
 OtherExploits.Text = "Other Exploits"
 OtherExploits.TextColor3 = Color3.fromRGB(255, 255, 255)
+OtherExploits.TextScaled = true
 OtherExploits.TextSize = 14.000
+OtherExploits.TextWrapped = true
 OtherExploits.TextXAlignment = Enum.TextXAlignment.Left
 
 UIPadding_6.Parent = OtherExploits
@@ -402,10 +368,10 @@ UICorner_7.Parent = OtherExploits
 Config.Name = "Config"
 Config.Parent = ButtonHolder
 Config.Active = false
-Config.BackgroundColor3 = Color3.fromRGB(0, 200, 100)
+Config.BackgroundColor3 = Color3.fromRGB(200, 40, 40)
 Config.Selectable = false
 Config.Size = UDim2.new(1, 0, 0, 24)
-Config.Font = Enum.Font.Ubuntu
+Config.Font = Enum.Font.Unknown
 Config.Text = "Config"
 Config.TextColor3 = Color3.fromRGB(255, 255, 255)
 Config.TextSize = 14.000
@@ -543,7 +509,7 @@ UIPadding_10.PaddingTop = UDim.new(0, 6)
 CheckmarkHolder.Name = "CheckmarkHolder"
 CheckmarkHolder.Parent = Toggle
 CheckmarkHolder.AnchorPoint = Vector2.new(1, 0)
-CheckmarkHolder.BackgroundColor3 = Color3.fromRGB(9, 200, 100)
+CheckmarkHolder.BackgroundColor3 = Color3.fromRGB(200, 40, 40)
 CheckmarkHolder.BorderColor3 = Color3.fromRGB(48, 48, 48)
 CheckmarkHolder.Position = UDim2.new(1, 0, 0, 0)
 CheckmarkHolder.Size = UDim2.new(0, 20, 0, 20)
@@ -661,7 +627,7 @@ ImageLabel_8.Image = "rbxassetid://12577109177"
 
 Button.Name = "Button"
 Button.Parent = LibraryTab
-Button.BackgroundColor3 = Color3.fromRGB(0, 200, 100)
+Button.BackgroundColor3 = Color3.fromRGB(200, 40, 40)
 Button.Size = UDim2.new(1, 0, 0, 32)
 
 UICorner_17.CornerRadius = UDim.new(0, 4)
@@ -715,7 +681,7 @@ UIListLayout_3.Padding = UDim.new(0, 6)
 
 Fly.Name = "Fly"
 Fly.Parent = UtilitiesTab
-Fly.BackgroundColor3 = Color3.fromRGB(9, 200, 100)
+Fly.BackgroundColor3 = Color3.fromRGB(200, 40, 40)
 Fly.Size = UDim2.new(1, 0, 0, 32)
 
 UICorner_18.CornerRadius = UDim.new(0, 4)
@@ -750,7 +716,7 @@ Title_8.TextXAlignment = Enum.TextXAlignment.Left
 
 Noclip.Name = "Noclip"
 Noclip.Parent = UtilitiesTab
-Noclip.BackgroundColor3 = Color3.fromRGB(9, 200, 100)
+Noclip.BackgroundColor3 = Color3.fromRGB(200, 40, 40)
 Noclip.Size = UDim2.new(1, 0, 0, 32)
 
 UICorner_19.CornerRadius = UDim.new(0, 4)
@@ -785,7 +751,7 @@ Title_9.TextXAlignment = Enum.TextXAlignment.Left
 
 InfJump.Name = "InfJump"
 InfJump.Parent = UtilitiesTab
-InfJump.BackgroundColor3 = Color3.fromRGB(9, 200, 100)
+InfJump.BackgroundColor3 = Color3.fromRGB(200, 40, 40)
 InfJump.Size = UDim2.new(1, 0, 0, 32)
 
 UICorner_20.CornerRadius = UDim.new(0, 4)
@@ -820,7 +786,7 @@ Title_10.TextXAlignment = Enum.TextXAlignment.Left
 
 JumpSlider.Name = "JumpSlider"
 JumpSlider.Parent = UtilitiesTab
-JumpSlider.BackgroundColor3 = Color3.fromRGB(9, 200, 100)
+JumpSlider.BackgroundColor3 = Color3.fromRGB(200, 40, 40)
 JumpSlider.Size = UDim2.new(1, 0, 0, 38)
 
 UICorner_21.CornerRadius = UDim.new(0, 4)
@@ -879,7 +845,7 @@ UICorner_23.Parent = Slider_2
 
 SpeedSlider.Name = "SpeedSlider"
 SpeedSlider.Parent = UtilitiesTab
-SpeedSlider.BackgroundColor3 = Color3.fromRGB(9, 200, 100)
+SpeedSlider.BackgroundColor3 = Color3.fromRGB(200, 40, 40)
 SpeedSlider.Size = UDim2.new(1, 0, 0, 38)
 
 UICorner_24.CornerRadius = UDim.new(0, 4)
@@ -981,7 +947,6 @@ ConfigTab.BackgroundTransparency = 1.000
 ConfigTab.BorderSizePixel = 0
 ConfigTab.Selectable = false
 ConfigTab.Size = UDim2.new(1, 0, 1, 0)
-ConfigTab.Visible = false
 ConfigTab.ScrollBarThickness = 0
 
 UIPadding_22.Parent = ConfigTab
@@ -990,14 +955,12 @@ UIPadding_22.PaddingLeft = UDim.new(0, 1)
 UIPadding_22.PaddingRight = UDim.new(0, 1)
 UIPadding_22.PaddingTop = UDim.new(0, 1)
 
-UIListLayout_4.Parent = ConfigTab
-UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
-UIListLayout_4.Padding = UDim.new(0, 6)
-
 Dropdown.Name = "Dropdown"
 Dropdown.Parent = ConfigTab
-Dropdown.BackgroundColor3 = Color3.fromRGB(9, 200, 100)
-Dropdown.Size = UDim2.new(1, 0, 0, 30)
+Dropdown.BackgroundColor3 = Color3.fromRGB(200, 40, 40)
+Dropdown.Position = UDim2.new(0, 5, 0, 0)
+Dropdown.Size = UDim2.new(1, -5, 0, 30)
+Dropdown.Visible = false
 
 UICorner_27.CornerRadius = UDim.new(0, 4)
 UICorner_27.Parent = Dropdown
@@ -1024,14 +987,14 @@ OptionHolder.Position = UDim2.new(0, 0, 0, 30)
 OptionHolder.Size = UDim2.new(1, 0, 1, -30)
 OptionHolder.Visible = false
 
-UIListLayout_5.Parent = OptionHolder
-UIListLayout_5.SortOrder = Enum.SortOrder.LayoutOrder
-UIListLayout_5.Padding = UDim.new(0, 6)
+UIListLayout_4.Parent = OptionHolder
+UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_4.Padding = UDim.new(0, 6)
 
 ReloadGUI.Name = "ReloadGUI"
 ReloadGUI.Parent = OptionHolder
 ReloadGUI.Active = false
-ReloadGUI.BackgroundColor3 = Color3.fromRGB(9, 200, 100)
+ReloadGUI.BackgroundColor3 = Color3.fromRGB(200, 40, 40)
 ReloadGUI.Selectable = false
 ReloadGUI.Size = UDim2.new(1, 0, 0, 24)
 ReloadGUI.Font = Enum.Font.Ubuntu
@@ -1044,7 +1007,7 @@ UICorner_28.Parent = ReloadGUI
 CloseGUI.Name = "CloseGUI"
 CloseGUI.Parent = OptionHolder
 CloseGUI.Active = false
-CloseGUI.BackgroundColor3 = Color3.fromRGB(9, 200, 100)
+CloseGUI.BackgroundColor3 = Color3.fromRGB(200, 40, 40)
 CloseGUI.Selectable = false
 CloseGUI.Size = UDim2.new(1, 0, 0, 24)
 CloseGUI.Font = Enum.Font.Ubuntu
@@ -1083,9 +1046,9 @@ UIPadding_24.PaddingLeft = UDim.new(0, 1)
 UIPadding_24.PaddingRight = UDim.new(0, 1)
 UIPadding_24.PaddingTop = UDim.new(0, 1)
 
-UIListLayout_6.Parent = ExploitsTab
-UIListLayout_6.SortOrder = Enum.SortOrder.LayoutOrder
-UIListLayout_6.Padding = UDim.new(0, 6)
+UIListLayout_5.Parent = ExploitsTab
+UIListLayout_5.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_5.Padding = UDim.new(0, 6)
 
 IY.Name = "IY"
 IY.Parent = ExploitsTab
@@ -1211,9 +1174,9 @@ UIPadding_28.PaddingLeft = UDim.new(0, 1)
 UIPadding_28.PaddingRight = UDim.new(0, 1)
 UIPadding_28.PaddingTop = UDim.new(0, 1)
 
-UIListLayout_7.Parent = GameTab
-UIListLayout_7.SortOrder = Enum.SortOrder.LayoutOrder
-UIListLayout_7.Padding = UDim.new(0, 6)
+UIListLayout_6.Parent = GameTab
+UIListLayout_6.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_6.Padding = UDim.new(0, 6)
 
 Error_2.Name = "Error"
 Error_2.Parent = GameTab
@@ -1269,7 +1232,7 @@ DropShadow.ScaleType = Enum.ScaleType.Slice
 DropShadow.SliceCenter = Rect.new(49, 49, 450, 450)
 
 NotificationHolder.Name = "NotificationHolder"
-NotificationHolder.Parent = MainUI
+NotificationHolder.Parent = HackbloxUI
 NotificationHolder.AnchorPoint = Vector2.new(1, 0)
 NotificationHolder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 NotificationHolder.BackgroundTransparency = 1.000
@@ -1278,7 +1241,7 @@ NotificationHolder.Size = UDim2.new(0, 300, 0, 100)
 
 -- Scripts:
 
-local function EVUCFJY_fake_script() -- TopBar.Draggable 
+local function XTRBO_fake_script() -- TopBar.Draggable 
 	local script = Instance.new('LocalScript', TopBar)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1322,8 +1285,8 @@ local function EVUCFJY_fake_script() -- TopBar.Draggable
 		end
 	end)
 end
-coroutine.wrap(EVUCFJY_fake_script)()
-local function THZP_fake_script() -- Minimize.Minimize 
+coroutine.wrap(XTRBO_fake_script)()
+local function QNZN_fake_script() -- Minimize.Minimize 
 	local script = Instance.new('LocalScript', Minimize)
 
 	local button = script.Parent
@@ -1366,8 +1329,8 @@ local function THZP_fake_script() -- Minimize.Minimize
 		end
 	end)
 end
-coroutine.wrap(THZP_fake_script)()
-local function TXNII_fake_script() -- Home.Toggle 
+coroutine.wrap(QNZN_fake_script)()
+local function OXRZM_fake_script() -- Home.Toggle 
 	local script = Instance.new('LocalScript', Home)
 
 	local button = script.Parent
@@ -1391,8 +1354,8 @@ local function TXNII_fake_script() -- Home.Toggle
 		homeTab.Visible = true
 	end)
 end
-coroutine.wrap(TXNII_fake_script)()
-local function IVLF_fake_script() -- GameXD.Toggle 
+coroutine.wrap(OXRZM_fake_script)()
+local function VAFCL_fake_script() -- GameXD.Toggle 
 	local script = Instance.new('LocalScript', GameXD)
 
 	local button = script.Parent
@@ -1416,8 +1379,8 @@ local function IVLF_fake_script() -- GameXD.Toggle
 		gameTab.Visible = true
 	end)
 end
-coroutine.wrap(IVLF_fake_script)()
-local function FTNW_fake_script() -- Utilities.Toggle 
+coroutine.wrap(VAFCL_fake_script)()
+local function OZPFMWR_fake_script() -- Utilities.Toggle 
 	local script = Instance.new('LocalScript', Utilities)
 
 	local button = script.Parent
@@ -1441,8 +1404,8 @@ local function FTNW_fake_script() -- Utilities.Toggle
 		toolsTab.Visible = true
 	end)
 end
-coroutine.wrap(FTNW_fake_script)()
-local function IRIFP_fake_script() -- OtherExploits.Toggle 
+coroutine.wrap(OZPFMWR_fake_script)()
+local function PHZQDL_fake_script() -- OtherExploits.Toggle 
 	local script = Instance.new('LocalScript', OtherExploits)
 
 	local button = script.Parent
@@ -1466,8 +1429,8 @@ local function IRIFP_fake_script() -- OtherExploits.Toggle
 		exploitsTab.Visible = true
 	end)
 end
-coroutine.wrap(IRIFP_fake_script)()
-local function VHPBDTS_fake_script() -- Config.Toggle 
+coroutine.wrap(PHZQDL_fake_script)()
+local function UBGYE_fake_script() -- Config.Toggle 
 	local script = Instance.new('LocalScript', Config)
 
 	local button = script.Parent
@@ -1491,8 +1454,8 @@ local function VHPBDTS_fake_script() -- Config.Toggle
 		configTab.Visible = true
 	end)
 end
-coroutine.wrap(VHPBDTS_fake_script)()
-local function DACPYR_fake_script() -- Draggable.LocalScript 
+coroutine.wrap(UBGYE_fake_script)()
+local function SVCGKZF_fake_script() -- Draggable.LocalScript 
 	local script = Instance.new('LocalScript', Draggable)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1532,8 +1495,8 @@ local function DACPYR_fake_script() -- Draggable.LocalScript
 	end)
 	
 end
-coroutine.wrap(DACPYR_fake_script)()
-local function OPQE_fake_script() -- Checkmark.LocalScript 
+coroutine.wrap(SVCGKZF_fake_script)()
+local function WHYSY_fake_script() -- Checkmark.LocalScript 
 	local script = Instance.new('LocalScript', Checkmark)
 
 	local button = script.Parent
@@ -1553,8 +1516,8 @@ local function OPQE_fake_script() -- Checkmark.LocalScript
 		end
 	end)
 end
-coroutine.wrap(OPQE_fake_script)()
-local function SUGR_fake_script() -- Title_8.Fly 
+coroutine.wrap(WHYSY_fake_script)()
+local function CTOE_fake_script() -- Title_8.Fly 
 	local script = Instance.new('LocalScript', Title_8)
 
 	speeds = 1
@@ -1759,43 +1722,38 @@ local function SUGR_fake_script() -- Title_8.Fly
 		end
 	end)
 end
-coroutine.wrap(SUGR_fake_script)()
-local function URRVPU_fake_script() -- Title_9.Noclip 
-	local script = Instance.new('LocalScript', Title_9)
+coroutine.wrap(CTOE_fake_script)()
+local function ZTYS_fake_script() -- Noclip.LocalScript 
+	local script = Instance.new('LocalScript', Noclip)
 
-	local Workspace = game:GetService("Workspace")
-	local CoreGui = game:GetService("CoreGui")
-	local Players = game:GetService("Players")
-	local Plr = Players.LocalPlayer
-	local Clipon = false
-	local Toggle = script.Parent
-	local debounce = false
+	local button = script.Parent.Title
+	local character = game.Players.LocalPlayer.Character
+	local db = false
 	
+	local function enableNoclip()
+		character.HumanoidRootPart.CanCollide = false
+		character.UpperTorso.CanCollide = false
+		character.LowerTorso.CanCollide = false
+	end
 	
-	Toggle.MouseButton1Click:connect(function()
-		if debounce == false then
-			Clipon = true
-			debounce = true
-			Stepped = game:GetService("RunService").Stepped:Connect(function()
-				if not Clipon == false then
-					for a, b in pairs(Workspace:GetChildren()) do
-						if b.Name == Plr.Name then
-							for i, v in pairs(Workspace[Plr.Name]:GetChildren()) do
-								if v:IsA("BasePart") then
-									v.CanCollide = false
-								end end end end
-				else
-					Stepped:Disconnect()
-				end
-			end)
-		elseif debounce == true then
-			Clipon = false
-			debounce = false
+	local function disableNoclip()
+		character.HumanoidRootPart.CanCollide = true
+		character.UpperTorso.CanCollide = true
+		character.LowerTorso.CanCollide = true
+	end
+	
+	button.MouseButton1Click:Connect(function()
+		if db == false then
+			db = true
+			enableNoclip()
+		elseif db == true then
+			db = false
+			disableNoclip()
 		end
 	end)
 end
-coroutine.wrap(URRVPU_fake_script)()
-local function YRBONE_fake_script() -- Title_10.InfJump 
+coroutine.wrap(ZTYS_fake_script)()
+local function KACHBV_fake_script() -- Title_10.InfJump 
 	local script = Instance.new('LocalScript', Title_10)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1808,8 +1766,8 @@ local function YRBONE_fake_script() -- Title_10.InfJump
 		})
 	end)
 end
-coroutine.wrap(YRBONE_fake_script)()
-local function ZIPTLR_fake_script() -- Slider_2.Slider 
+coroutine.wrap(KACHBV_fake_script)()
+local function MHBFT_fake_script() -- Slider_2.Slider 
 	local script = Instance.new('LocalScript', Slider_2)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1850,8 +1808,8 @@ local function ZIPTLR_fake_script() -- Slider_2.Slider
 	end)
 	
 end
-coroutine.wrap(ZIPTLR_fake_script)()
-local function KZHPLYA_fake_script() -- Slider_3.Slider 
+coroutine.wrap(MHBFT_fake_script)()
+local function RLWBJWN_fake_script() -- Slider_3.Slider 
 	local script = Instance.new('LocalScript', Slider_3)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1891,8 +1849,8 @@ local function KZHPLYA_fake_script() -- Slider_3.Slider
 	end)
 	
 end
-coroutine.wrap(KZHPLYA_fake_script)()
-local function JAOQM_fake_script() -- HomeTab.Player 
+coroutine.wrap(RLWBJWN_fake_script)()
+local function HOVWXK_fake_script() -- HomeTab.Player 
 	local script = Instance.new('LocalScript', HomeTab)
 
 	local frame = script.Parent
@@ -1905,8 +1863,8 @@ local function JAOQM_fake_script() -- HomeTab.Player
 	frame.PlayerImage.Image = content
 	frame.Label.Text = "Welcome Back, ".. player.Name
 end
-coroutine.wrap(JAOQM_fake_script)()
-local function EKXPZ_fake_script() -- ReloadGUI.Reload 
+coroutine.wrap(HOVWXK_fake_script)()
+local function CTMZCFP_fake_script() -- ReloadGUI.Reload 
 	local script = Instance.new('LocalScript', ReloadGUI)
 
 	local UI = script.Parent.Parent.Parent.Parent.Parent.Parent.Parent
@@ -1917,8 +1875,8 @@ local function EKXPZ_fake_script() -- ReloadGUI.Reload
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/BenjaKpokYT/Hackblox/main/Hackblox.lua'))()
 	end)
 end
-coroutine.wrap(EKXPZ_fake_script)()
-local function QLEEV_fake_script() -- CloseGUI.Close 
+coroutine.wrap(CTMZCFP_fake_script)()
+local function DNYBT_fake_script() -- CloseGUI.Close 
 	local script = Instance.new('LocalScript', CloseGUI)
 
 	local UI = script.Parent.Parent.Parent.Parent.Parent.Parent.Parent
@@ -1928,8 +1886,8 @@ local function QLEEV_fake_script() -- CloseGUI.Close
 		UI:Destroy()
 	end)
 end
-coroutine.wrap(QLEEV_fake_script)()
-local function RMMRK_fake_script() -- Title_13.Toggle 
+coroutine.wrap(DNYBT_fake_script)()
+local function WXRAOCF_fake_script() -- Title_13.Toggle 
 	local script = Instance.new('LocalScript', Title_13)
 
 	local frame = script.Parent.Parent
@@ -1949,8 +1907,8 @@ local function RMMRK_fake_script() -- Title_13.Toggle
 		end
 	end)
 end
-coroutine.wrap(RMMRK_fake_script)()
-local function WQXUE_fake_script() -- Title_14.LoadIY 
+coroutine.wrap(WXRAOCF_fake_script)()
+local function KCOBF_fake_script() -- Title_14.LoadIY 
 	local script = Instance.new('LocalScript', Title_14)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1958,24 +1916,24 @@ local function WQXUE_fake_script() -- Title_14.LoadIY
 	end)
 	
 end
-coroutine.wrap(WQXUE_fake_script)()
-local function NWSR_fake_script() -- Title_15.LoadCMD-X 
+coroutine.wrap(KCOBF_fake_script)()
+local function NIBPVMB_fake_script() -- Title_15.LoadCMD-X 
 	local script = Instance.new('LocalScript', Title_15)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
 	end)
 end
-coroutine.wrap(NWSR_fake_script)()
-local function MKFZSE_fake_script() -- Title_16.LoadDex 
+coroutine.wrap(NIBPVMB_fake_script)()
+local function SHVKORJ_fake_script() -- Title_16.LoadDex 
 	local script = Instance.new('LocalScript', Title_16)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/DomainX/main/source',true))()
 	end)
 end
-coroutine.wrap(MKFZSE_fake_script)()
-local function RFZZG_fake_script() -- MainFrame.Toggle 
+coroutine.wrap(SHVKORJ_fake_script)()
+local function UZAD_fake_script() -- MainFrame.Toggle 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local Frame = script.Parent.Parent.MainFrame
@@ -1999,20 +1957,14 @@ local function RFZZG_fake_script() -- MainFrame.Toggle
 	end)
 	
 end
-coroutine.wrap(RFZZG_fake_script)()
-local function RLWC_fake_script() -- MainUI.Load 
-	local script = Instance.new('LocalScript', MainUI)
+coroutine.wrap(UZAD_fake_script)()
+local function NAXY_fake_script() -- HackbloxUI.Load 
+	local script = Instance.new('LocalScript', HackbloxUI)
 
-	local CoreGui = game:GetService("StarterGui")
 	local Frame = script.Parent.MainFrame
 	Frame.Visible = false
 	wait(2)
 	Frame.Visible = true
-	CoreGui:SetCore("SendNotification", {
-		Title = "Hackblox Loaded";
-		Text = "Have fun!";
-		Duration = 5;
-	})
 	script:Destroy()
 end
-coroutine.wrap(RLWC_fake_script)()
+coroutine.wrap(NAXY_fake_script)()
